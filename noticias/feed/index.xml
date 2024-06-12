@@ -1,0 +1,993 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Notícias &#8211; Acionando.com</title>
+	<atom:link href="/noticias/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Acionando.com: Tudo Sobre Finanças</description>
+	<lastBuildDate>Mon, 11 Mar 2024 20:19:55 +0000</lastBuildDate>
+	<language>pt-BR</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+
+<image>
+	<url>/wp-content/uploads/2023/09/icon-150x150.png</url>
+	<title>Notícias &#8211; Acionando.com</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Elo Reduz 15% dos Custos Operacionais com Automação de TI pela IBM: Um Estudo de Caso</title>
+		<link>/elo-reduz-15-dos-custos-operacionais/</link>
+		
+		<dc:creator><![CDATA[Fernanda Calandro]]></dc:creator>
+		<pubDate>Mon, 11 Mar 2024 20:19:53 +0000</pubDate>
+				<category><![CDATA[Notícias]]></category>
+		<category><![CDATA[automação de TI]]></category>
+		<category><![CDATA[economia operacional]]></category>
+		<category><![CDATA[Elo]]></category>
+		<category><![CDATA[FinOps]]></category>
+		<category><![CDATA[gestão de cloud híbrida]]></category>
+		<category><![CDATA[IBM Turbonomic]]></category>
+		<category><![CDATA[infraestrutura multicloud]]></category>
+		<category><![CDATA[inteligência artificial]]></category>
+		<category><![CDATA[otimização de recursos]]></category>
+		<category><![CDATA[tecnologia de pagamentos]]></category>
+		<guid isPermaLink="false">https://acionando.com/?p=6379</guid>
+
+					<description><![CDATA[<p>Elo alcança redução de 15% em custos operacionais com a implementação da plataforma IBM Turbonomic, evidenciando o impacto da automação e IA na otimização de recursos de TI para o setor de pagamentos.</p>
+<p>O post <a rel="nofollow" href="/elo-reduz-15-dos-custos-operacionais/">Elo Reduz 15% dos Custos Operacionais com Automação de TI pela IBM: Um Estudo de Caso</a> apareceu primeiro em <a rel="nofollow" href="/">Acionando.com</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p><span style="font-weight: 400;">A implementação da plataforma IBM Turbonomic pela <a href="https://acionando.com/?s=bandeira+elo" rel="nofollow noopener" target="_blank">Elo</a>, uma das principais empresas de tecnologia de pagamentos do Brasil, resultou em uma economia de 15% nos custos operacionais, demonstrando o poder da automação e da IA na otimização de recursos de TI.</span></p>
+
+
+
+<div class="wp-block-rank-math-toc-block" id="rank-math-toc"><h2>Sumário</h2><nav><ol><li><a href="#inovacao-e-eficiencia-a-parceria-entre-elo-e-ibm">Inovação e Eficiência: A Parceria entre Elo e IBM</a></li><li><a href="#economia-significativa-e-gestao-otimizada">Economia Significativa e Gestão Otimizada</a></li><li><a href="#desafios-e-solucoes-no-gerenciamento-de-cloud-hibrida">Desafios e Soluções no Gerenciamento de Cloud Híbrida</a></li><li><a href="#visao-futura-e-expansao-das-operacoes">Visão Futura e Expansão das Operações</a></li><li><a href="#insights-impulsionados-por-ia-e-o-futuro-da-automacao">Insights Impulsionados por IA e o Futuro da Automação</a></li><li><a href="#sobre-elo-e-cxp">Sobre Elo e CXP</a></li></ol></nav></div>
+
+
+
+<h2 class="wp-block-heading" id="inovacao-e-eficiencia-a-parceria-entre-elo-e-ibm"><span style="font-weight: 400;">Inovação e Eficiência: A Parceria entre Elo e IBM</span></h2>
+
+
+
+<p><span style="font-weight: 400;">A <a href="https://acionando.com/?s=bandeira+elo" rel="nofollow noopener" target="_blank">Elo</a>, destacada por seu portfólio abrangente em tecnologias de pagamento e com mais de 42 milhões de cartões ativos, escolheu a IBM Turbonomic para levar sua infraestrutura de TI a um novo patamar de eficiência e inovação. A plataforma, que promove a gestão dinâmica de ambientes cloud públicos, privados e híbridos, utilizou IA para otimizar a performance e controlar os gastos com nuvem em tempo real. Este avanço representa não apenas um marco na história da Elo, mas também uma tendência crescente no setor financeiro de buscar soluções inteligentes para gerenciamento de dados e recursos.</span></p>
+
+
+
+<h2 class="wp-block-heading" id="economia-significativa-e-gestao-otimizada"><span style="font-weight: 400;">Economia Significativa e Gestão Otimizada</span></h2>
+
+
+
+<p><span style="font-weight: 400;">Em apenas seis meses de adoção do IBM Turbonomic, a empresa de tecnologia de pagamentos constatou uma redução de 15% em seus custos operacionais relacionados ao ambiente multicloud híbrido. Este sucesso é atribuído à capacidade da plataforma de fornecer insights precisos para o gerenciamento de recursos, promovendo uma economia direta e uma maior eficiência operacional. Walter Rodrigues, diretor de Operações e Alianças da CXP Brasil e parceiro de negócios da IBM, enfatiza a importância da visão integrada e da personalização dos dashboards que o Turbonomic oferece, facilitando a tomada de decisões estratégicas e a otimização contínua dos recursos de nuvem.</span></p>
+
+
+
+<h2 class="wp-block-heading" id="desafios-e-solucoes-no-gerenciamento-de-cloud-hibrida"><span style="font-weight: 400;">Desafios e Soluções no Gerenciamento de Cloud Híbrida</span></h2>
+
+
+
+<p><span style="font-weight: 400;">O projeto de FinOps da Elo, focado na otimização de custos e na melhoria da performance, enfrentou o desafio de gerenciar eficientemente um ambiente de cloud híbrida complexo. A adoção do IBM Turbonomic permitiu à empresa superar esses obstáculos, integrando processos e ferramentas essenciais para um fluxo de trabalho eficaz. Marcelo Toledo, superintendente de TI da <a href="https://acionando.com/?s=bandeira+elo" rel="nofollow noopener" target="_blank">Elo</a>, destaca a rapidez com que a solução demonstrou seu valor, já na fase de prova de conceito, culminando em um retorno sobre o <a href="https://acionando.com/category/investimentos/" data-internallinksmanager029f6b8e52c="7" title="Categorai investimento">investimento</a> em poucos meses.</span></p>
+
+
+
+<h2 class="wp-block-heading" id="visao-futura-e-expansao-das-operacoes"><span style="font-weight: 400;">Visão Futura e Expansão das Operações</span></h2>
+
+
+
+<p><span style="font-weight: 400;">Com a economia alcançada, a Elo planeja reinvestir os recursos poupados na expansão de sua infraestrutura cloud e em ferramentas complementares dedicadas ao ambiente FinOps. Helio Manoel Vieira Caetano, da IBM Brasil, reforça a importância da visibilidade e controle para a gestão eficiente em ambientes multicloud, especialmente para operações de alta demanda como as da Elo. A plataforma IBM Turbonomic não só garantiu um ROI rápido, mas também abriu caminho para a modernização e otimização contínua do ambiente de nuvem da Elo.</span></p>
+
+
+
+<h2 class="wp-block-heading" id="insights-impulsionados-por-ia-e-o-futuro-da-automacao"><span style="font-weight: 400;">Insights Impulsionados por IA e o Futuro da Automação</span></h2>
+
+
+
+<p><span style="font-weight: 400;">A implementação do IBM Turbonomic na Elo não apenas resultou em significativas economias operacionais, mas também na otimização do planejamento e modernização do ambiente de cloud, destacando o papel estratégico da IA na gestão de recursos tecnológicos. A capacidade da plataforma de oferecer insights relevantes e direcionar dinamicamente os recursos para maximizar a performance dos aplicativos é um testemunho do potencial da automação e da inteligência artificial em transformar o setor de tecnologia de pagamentos.</span></p>
+
+
+
+<h2 class="wp-block-heading" id="sobre-elo-e-cxp"><span style="font-weight: 400;">Sobre Elo e CXP</span></h2>
+
+
+
+<p><span style="font-weight: 400;">Fundada em 2011, a <a href="https://acionando.com/?s=bandeira+elo" rel="nofollow noopener" target="_blank">Elo</a> se estabeleceu como uma inovadora no mercado de pagamentos digitais, oferecendo soluções customizadas e uma tecnologia proprietária que atende às necessidades dos brasileiros. A <a href="https://cxpbrasil.com.br/" target="_blank" rel="noopener nofollow">CXP</a>, por sua vez, destaca-se por sua abordagem centrada no cliente e na oferta de soluções integradas que atendem a uma vasta gama de necessidades de negócios, desde a integração de sistemas até a inteligência artificial e a consultoria especializada. Juntas, <a href="https://www.elo.com.br/" target="_blank" rel="noopener nofollow">Elo</a> e IBM, através da implementação do Turbonomic, demonstram o poder da colaboração e da inovação tecnológica na otimização de operações e na promoção da eficiência no setor financeiro.</span></p>
+<p>O post <a rel="nofollow" href="/elo-reduz-15-dos-custos-operacionais/">Elo Reduz 15% dos Custos Operacionais com Automação de TI pela IBM: Um Estudo de Caso</a> apareceu primeiro em <a rel="nofollow" href="/">Acionando.com</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Parceria BB e G+D: 5 Avanços no Pagamento Offline com Drex</title>
+		<link>/parceria-bb-e-gd-drex-avanca/</link>
+		
+		<dc:creator><![CDATA[Fernanda Calandro]]></dc:creator>
+		<pubDate>Mon, 11 Mar 2024 20:00:20 +0000</pubDate>
+				<category><![CDATA[Notícias]]></category>
+		<category><![CDATA[Banco do Brasil]]></category>
+		<category><![CDATA[CBDC brasileira]]></category>
+		<category><![CDATA[dinheiro digital]]></category>
+		<category><![CDATA[DREX]]></category>
+		<category><![CDATA[G+D]]></category>
+		<category><![CDATA[inclusão financeira]]></category>
+		<category><![CDATA[infraestrutura tecnológica]]></category>
+		<category><![CDATA[pagamentos offline]]></category>
+		<category><![CDATA[serviços bancários]]></category>
+		<category><![CDATA[tecnologia de pagamento]]></category>
+		<guid isPermaLink="false">https://acionando.com/?p=6374</guid>
+
+					<description><![CDATA[<p>BB e G+D colaboram em teste pioneiro para pagamentos Drex offline, visando a inclusão financeira e a expansão do acesso a serviços bancários sem a necessidade de internet no Brasil.</p>
+<p>O post <a rel="nofollow" href="/parceria-bb-e-gd-drex-avanca/">Parceria BB e G+D: 5 Avanços no Pagamento Offline com Drex</a> apareceu primeiro em <a rel="nofollow" href="/">Acionando.com</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p><span style="font-weight: 400;">O BB e G+D, Banco do Brasil e a Giesecke+Devrient Currency Technology, respectivamente, firmam parceria inovadora para testar pagamentos offline com <a href="https://acionando.com/?s=Drex" rel="nofollow noopener" target="_blank">Drex,</a> visando a inclusão financeira e a acessibilidade de pagamentos sem internet em todo o Brasil.</span></p>
+
+
+
+<div class="wp-block-rank-math-toc-block" id="rank-math-toc"><h2>Sumário</h2><nav><ol><li><a href="#inovacao-em-pagamentos-bb-e-g-d-parceiros-no-piloto-drex">Inovação em Pagamentos: BB e G+D Parceiros no Piloto Drex</a></li><li><a href="#a-solucao-de-pagamento-offline-como-funciona">A Solução de Pagamento Offline: Como Funciona</a></li><li><a href="#potencial-de-inclusao-financeira-e-impacto-social">Potencial de Inclusão Financeira e Impacto Social</a></li><li><a href="#explorando-novos-modelos-de-negocio-com-o-drex">Explorando Novos Modelos de Negócio com o Drex</a></li><li><a href="#uma-moeda-digital-verdadeiramente-inclusiva">Uma Moeda Digital Verdadeiramente Inclusiva</a></li><li><a href="#desafio-e-oportunidade-o-papel-do-dinheiro-fisico-no-brasil">Desafio e Oportunidade: O Papel do Dinheiro Físico no Brasil</a></li><li><a href="#avancando-rumo-a-uma-economia-digital-inclusiva">Avançando Rumo a Uma Economia Digital Inclusiva</a></li></ol></nav></div>
+
+
+
+<h2 class="wp-block-heading" id="inovacao-em-pagamentos-bb-e-g-d-parceiros-no-piloto-drex"><span style="font-weight: 400;">Inovação em Pagamentos: BB e G+D Parceiros no Piloto Drex</span></h2>
+
+
+
+<p><span style="font-weight: 400;">O BB e G+D anunciaram uma parceria para a implementação de testes com a moeda digital <a href="https://acionando.com/?s=Drex" rel="nofollow noopener" target="_blank">Drex</a> em um ambiente offline. Esta cooperação técnica visa desenvolver soluções que permitam pagamentos sem a necessidade de conexão à internet, utilizando a Central Bank Digital Currency (CBDC) brasileira.</span></p>
+
+
+
+<h2 class="wp-block-heading" id="a-solucao-de-pagamento-offline-como-funciona"><span style="font-weight: 400;">A Solução de Pagamento Offline: Como Funciona</span></h2>
+
+
+
+<p><span style="font-weight: 400;">O foco da parceria é testar uma tecnologia que possibilite transações seguras e simples, sem dependência da internet. A solução será aplicável através de dispositivos como carteiras digitais, cartões de plástico e wearables, facilitando transações instantâneas por meio de um protocolo de segurança desenvolvido pela G+D. Este método promete revolucionar a maneira como os brasileiros acessam e utilizam serviços financeiros, especialmente em áreas com infraestrutura tecnológica limitada.</span></p>
+
+
+
+<h2 class="wp-block-heading" id="potencial-de-inclusao-financeira-e-impacto-social"><span style="font-weight: 400;">Potencial de Inclusão Financeira e Impacto Social</span></h2>
+
+
+
+<p><span style="font-weight: 400;">A vice-presidente de negócios digitais e tecnologia do BB, Marisa Reghini, destacou o compromisso do banco em aproximar os serviços financeiros da população brasileira. A implementação de pagamentos offline com o<a href="https://acionando.com/?s=Drex" rel="nofollow noopener" target="_blank"> Drex</a> é vista como uma chave para a inclusão financeira, oferecendo uma alternativa segura e acessível para quem enfrenta barreiras tecnológicas ou não possui conta bancária.</span></p>
+
+
+
+<h2 class="wp-block-heading" id="explorando-novos-modelos-de-negocio-com-o-drex"><span style="font-weight: 400;">Explorando Novos Modelos de Negócio com o Drex</span></h2>
+
+
+
+<p><span style="font-weight: 400;">Além de promover a inclusão financeira, a parceria entre o BB e a G+D visa testar a viabilidade desta tecnologia como parte da futura plataforma do <a href="https://acionando.com/?s=Drex" rel="nofollow noopener" target="_blank">Drex</a>. Rodrigo Mulinari, diretor de tecnologia do BB, enfatiza a importância de explorar novos modelos de negócios que possam ser habilitados pela CBDC brasileira, especialmente em locais com infraestrutura tecnológica precária.</span></p>
+
+
+
+<h2 class="wp-block-heading" id="uma-moeda-digital-verdadeiramente-inclusiva"><span style="font-weight: 400;">Uma Moeda Digital Verdadeiramente Inclusiva</span></h2>
+
+
+
+<p><span style="font-weight: 400;">Raoul Herborg, Diretor Geral de CBDC na Giesecke+Devrient, reforçou a visão de que uma CBDC deve ser acessível a todos, em qualquer lugar e a qualquer hora, para ser considerada uma moeda digital pública inclusiva. A parceria com o Banco do Brasil em pagamentos offline é um passo importante para alcançar esse objetivo, ampliando o acesso a serviços financeiros em torno do <a href="https://acionando.com/?s=Drex" rel="nofollow noopener" target="_blank">Drex.</a></span></p>
+
+
+
+<h2 class="wp-block-heading" id="desafio-e-oportunidade-o-papel-do-dinheiro-fisico-no-brasil"><span style="font-weight: 400;">Desafio e Oportunidade: O Papel do Dinheiro Físico no Brasil</span></h2>
+
+
+
+<p><span style="font-weight: 400;">Uma pesquisa recente da Tecban apontou que uma porcentagem significativa da população brasileira ainda depende do dinheiro físico para transações diárias, especialmente nas classes C, D e E e na região Nordeste. Este cenário ressalta a importância de soluções como a proposta pelo BB e G+D, que podem oferecer alternativas seguras e acessíveis para pagamentos, contribuindo para a redução da dependência do dinheiro em espécie e promovendo a inclusão financeira.</span></p>
+
+
+
+<h2 class="wp-block-heading" id="avancando-rumo-a-uma-economia-digital-inclusiva"><span style="font-weight: 400;">Avançando Rumo a Uma Economia Digital Inclusiva</span></h2>
+
+
+
+<p class="has-text-align-left"><span style="font-weight: 400;">A parceria entre o <a href="https://www.bb.com.br/pbb/pagina-inicial/imprensa/n/67840/BB%20e%20G+D%20firmam%20parceria%20para%20testar%20pagamentos%20offline%20com%20Drex#/" target="_blank" rel="noopener nofollow">BB e G+D</a> representa um marco importante no caminho para uma economia digital mais inclusiva no Brasil. Ao testar e implementar soluções de pagamento offline com o Drex, o BB reafirma seu papel de liderança no mercado financeiro e seu compromisso com a democratização do acesso aos serviços bancários, potencializando os benefícios da digitalização financeira para toda a população brasileira.</span></p>
+<p>O post <a rel="nofollow" href="/parceria-bb-e-gd-drex-avanca/">Parceria BB e G+D: 5 Avanços no Pagamento Offline com Drex</a> apareceu primeiro em <a rel="nofollow" href="/">Acionando.com</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>CBIO: 5 Transformações com a Migração para a Nuvem pela B3</title>
+		<link>/cbio-5-transformacoes/</link>
+		
+		<dc:creator><![CDATA[Fernanda Calandro]]></dc:creator>
+		<pubDate>Mon, 11 Mar 2024 19:49:19 +0000</pubDate>
+				<category><![CDATA[Notícias]]></category>
+		<category><![CDATA[B3]]></category>
+		<category><![CDATA[compromisso ambiental]]></category>
+		<category><![CDATA[créditos de descarbonização]]></category>
+		<category><![CDATA[infraestrutura de mercado]]></category>
+		<category><![CDATA[Inovação Tecnológica]]></category>
+		<category><![CDATA[mercado de renda fixa]]></category>
+		<category><![CDATA[Mercado Financeiro]]></category>
+		<category><![CDATA[negociação de CBIO]]></category>
+		<category><![CDATA[plataforma Trademate]]></category>
+		<category><![CDATA[Sustentabilidade]]></category>
+		<guid isPermaLink="false">https://acionando.com/?p=6367</guid>
+
+					<description><![CDATA[<p>B3 inova com a migração da negociação de Créditos de Descarbonização (CBIO) para a plataforma em nuvem Trademate, visando agilidade e maior liquidez no mercado de renda fixa.</p>
+<p>O post <a rel="nofollow" href="/cbio-5-transformacoes/">CBIO: 5 Transformações com a Migração para a Nuvem pela B3</a> apareceu primeiro em <a rel="nofollow" href="/">Acionando.com</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p><span style="font-weight: 400;">A <a href="https://acionando.com/?s=+B3" rel="nofollow noopener" target="_blank">B3</a> anuncia a transição da negociação secundária de Créditos de Descarbonização (CBIO) para a plataforma Trademate baseada em nuvem, prometendo revolucionar a forma como esses ativos são negociados e acessados.</span></p>
+
+
+
+<div class="wp-block-rank-math-toc-block" id="rank-math-toc"><h2>Sumário</h2><nav><ol><li><a href="#b-3-revoluciona-o-mercado-de-cbio-com-plataforma-em-nuvem">B3 Revoluciona o Mercado de CBIO com Plataforma em Nuvem</a></li><li><a href="#impacto-da-migracao-para-investidores-e-mercado">Impacto da Migração para Investidores e Mercado</a></li><li><a href="#acesso-facilitado-e-proximas-migracoes">Acesso Facilitado e Próximas Migrações</a></li><li><a href="#o-crescimento-e-a-importancia-do-mercado-de-cbio">O Crescimento e a Importância do Mercado de CBIO</a></li><li><a href="#sobre-a-b-3-e-seu-compromisso-com-o-mercado">Sobre a B3 e seu Compromisso com o Mercado</a></li><li><a href="#avanco-tecnologico-e-sustentabilidade-na-negociacao-de-cbi-os">Avanço Tecnológico e Sustentabilidade na Negociação de CBIOs</a></li></ol></nav></div>
+
+
+
+<h2 class="wp-block-heading" id="b-3-revoluciona-o-mercado-de-cbio-com-plataforma-em-nuvem"><span style="font-weight: 400;">B3 Revoluciona o Mercado de CBIO com Plataforma em Nuvem</span></h2>
+
+
+
+<p><span style="font-weight: 400;">Em uma jogada inovadora, a <a href="https://acionando.com/?s=+B3" rel="nofollow noopener" target="_blank">B3</a>, uma das principais infraestruturas de mercado financeiro do mundo, anunciou hoje (11 de março de 2024) a migração da negociação secundária de Créditos de Descarbonização para sua nova plataforma, <a href="https://trademate.b3.com.br/" target="_blank" rel="noopener nofollow">Trademate</a>. Desenvolvida inteiramente na nuvem, a Trademate substitui a antiga plataforma Trader, prometendo uma experiência mais ágil, moderna e segura para a negociação de ativos de renda fixa.</span></p>
+
+
+
+<h2 class="wp-block-heading" id="impacto-da-migracao-para-investidores-e-mercado"><span style="font-weight: 400;">Impacto da Migração para Investidores e Mercado</span></h2>
+
+
+
+<p><span style="font-weight: 400;">Esta transição representa a segunda fase de migração de produtos para o Trademate, com os títulos públicos federais sendo os primeiros a fazerem o salto. &#8220;A transferência do CBIO para a plataforma em nuvem é um passo significativo para proporcionar um ambiente mais dinâmico e com mais liquidez ao mercado secundário de ativos de renda fixa&#8221;, explica Afonso Rossatto, head de Produtos de Renda Fixa na <a href="https://acionando.com/?s=+B3" rel="nofollow noopener" target="_blank">B3.</a> Ele destaca a importância do <span style="font-weight: 400;">Créditos de Descarbonização</span> para trazer diversidade e volume de ofertas ao mercado, contrastando com os tradicionais traders de títulos públicos federais.</span></p>
+
+
+
+<h2 class="wp-block-heading" id="acesso-facilitado-e-proximas-migracoes"><span style="font-weight: 400;">Acesso Facilitado e Próximas Migrações</span></h2>
+
+
+
+<p><span style="font-weight: 400;">Além de melhorar a eficiência da negociação, a <a href="https://acionando.com/?s=+B3" rel="nofollow noopener" target="_blank">B3</a> também disponibilizará uma versão web da Trademate, permitindo que os participantes acompanhem as negociações de CBIO com facilidade. Nos próximos meses, a plataforma está preparada para acolher a migração de títulos privados, incluindo o Certificado de Recebíveis do Agronegócio (CRA), Certificado de Recebíveis Imobiliários (CRI), Cotas de Fundos Fechados (CFF) e Debêntures.</span></p>
+
+
+
+<h2 class="wp-block-heading" id="o-crescimento-e-a-importancia-do-mercado-de-cbio"><span style="font-weight: 400;">O Crescimento e a Importância do Mercado de CBIO</span></h2>
+
+
+
+<p><span style="font-weight: 400;">Os CBIOs são fundamentais para a Política Nacional de Biocombustíveis (RenovaBio), ajudando o Brasil a atingir os objetivos do Acordo de Paris através da compensação de emissões de CO2. No último ano, os CBIOs geraram R$ 9 bilhões em negociações, mostrando um crescimento expressivo em comparação com anos anteriores. &#8220;Os CBIOs estão cada vez mais presentes no mercado, destacando-se por seu crescimento anual significativo&#8221;, afirma Leonardo Betanho, superintendente de Produtos Balcão na <a href="https://acionando.com/?s=+B3" rel="nofollow noopener" target="_blank">B3</a>.</span></p>
+
+
+
+<h2 class="wp-block-heading" id="sobre-a-b-3-e-seu-compromisso-com-o-mercado"><span style="font-weight: 400;">Sobre a B3 e seu Compromisso com o Mercado</span></h2>
+
+
+
+<p><span style="font-weight: 400;">Como uma líder global no setor de bolsas, a <a href="https://acionando.com/?s=+B3" rel="nofollow noopener" target="_blank">B3</a> desempenha um papel crucial no desenvolvimento e viabilização do mercado financeiro e de capitais no Brasil. Com sede em São Paulo e presença internacional, a B3 se compromete a promover a sustentabilidade, a governança corporativa e a gestão de riscos, evidenciando seu papel vital na economia brasileira.</span></p>
+
+
+
+<h2 class="wp-block-heading" id="avanco-tecnologico-e-sustentabilidade-na-negociacao-de-cbi-os"><span style="font-weight: 400;">Avanço Tecnológico e Sustentabilidade na Negociação de CBIOs</span></h2>
+
+
+
+<p><span style="font-weight: 400;">A migração da negociação de CBIOs para a plataforma Trademate representa um marco importante para a<a href="https://acionando.com/?s=+B3" rel="nofollow noopener" target="_blank"> B3</a> e para o mercado de ativos de renda fixa. Com promessas de maior eficiência, segurança e acessibilidade, a B3 continua a inovar, reafirmando seu compromisso com o desenvolvimento sustentável do mercado financeiro brasileiro.</span></p>
+<p>O post <a rel="nofollow" href="/cbio-5-transformacoes/">CBIO: 5 Transformações com a Migração para a Nuvem pela B3</a> apareceu primeiro em <a rel="nofollow" href="/">Acionando.com</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Empréstimo Banco PAN: Inovação com Assistente Inteligente para Simulação de Empréstimo Ideal</title>
+		<link>/emprestimo-banco-pan-inovacao/</link>
+		
+		<dc:creator><![CDATA[Fernanda Calandro]]></dc:creator>
+		<pubDate>Mon, 11 Mar 2024 19:39:48 +0000</pubDate>
+				<category><![CDATA[Notícias]]></category>
+		<category><![CDATA[assistente inteligente]]></category>
+		<category><![CDATA[Banco PAN]]></category>
+		<category><![CDATA[empréstimo ideal]]></category>
+		<category><![CDATA[estratégia digital]]></category>
+		<category><![CDATA[Inovação Financeira]]></category>
+		<category><![CDATA[jornada de crédito]]></category>
+		<category><![CDATA[oferta de empréstimos]]></category>
+		<category><![CDATA[personalização de crédito]]></category>
+		<category><![CDATA[plataforma digital de consumo]]></category>
+		<category><![CDATA[produtos de crédito]]></category>
+		<category><![CDATA[serviços financeiros digitais]]></category>
+		<category><![CDATA[simulador de empréstimos]]></category>
+		<category><![CDATA[tecnologia em banking]]></category>
+		<guid isPermaLink="false">https://acionando.com/?p=6362</guid>
+
+					<description><![CDATA[<p>O Banco PAN Lança o Simulador 'Empréstimo Ideal', Uma Ferramenta Inovadora Que Recomenda o Produto de Crédito Mais Adequado ao Perfil do Cliente, Reinventando a Experiência de Contratação de Empréstimos.</p>
+<p>O post <a rel="nofollow" href="/emprestimo-banco-pan-inovacao/">Empréstimo Banco PAN: Inovação com Assistente Inteligente para Simulação de Empréstimo Ideal</a> apareceu primeiro em <a rel="nofollow" href="/">Acionando.com</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p><span style="font-weight: 400;">O empréstimo do Banco PAN, que destaca-se no mercado financeiro como uma plataforma digital completa de banking e consumo, anuncia um grande avanço em sua estratégia digital com o lançamento do simulador &#8220;Empréstimo Ideal&#8221;. Esta nova funcionalidade, acompanhada de um redesign na interface do usuário, promete revolucionar a jornada de oferta de empréstimos para os clientes, alinhando-se ao objetivo do banco de se estabelecer como um assistente de crédito e consumo inteligente.</span></p>
+
+
+
+<div class="wp-block-rank-math-toc-block" id="rank-math-toc"><h2>Sumário</h2><nav><ol><li><a href="#emprestimo-banco-pan-inovacao-na-experiencia-do-usuario">Empréstimo Banco PAN: Inovação na Experiência do Usuário</a></li><li><a href="#um-portfolio-diversificado-ao-alcance-do-cliente">Um Portfólio Diversificado ao Alcance do Cliente</a></li><li><a href="#comprometimento-com-a-facilidade-e-o-suporte-ao-cliente">Comprometimento com a Facilidade e o Suporte ao Cliente</a></li><li><a href="#o-banco-pan-e-seu-posicionamento-no-mercado">O Banco PAN e Seu Posicionamento no Mercado</a></li><li><a href="#uma-revolucao-no-acesso-ao-credito">Uma Revolução no Acesso ao Crédito</a></li></ol></nav></div>
+
+
+
+<h2 class="wp-block-heading" id="emprestimo-banco-pan-inovacao-na-experiencia-do-usuario"><span style="font-weight: 400;">Empréstimo Banco PAN: Inovação na Experiência do Usuário</span></h2>
+
+
+
+<p><span style="font-weight: 400;">A nova home de Empréstimos do Banco PAN agora apresenta o Simulador &#8220;Empréstimo Ideal&#8221;, uma ferramenta desenhada para simplificar a escolha do produto de crédito que melhor se ajusta às necessidades individuais de cada cliente. Respondendo a um breve questionário de cinco perguntas através de um chat intuitivo, os usuários recebem imediatamente recomendações personalizadas, tornando o processo de seleção de empréstimos mais direto e eficaz.</span></p>
+
+
+
+<h2 class="wp-block-heading" id="um-portfolio-diversificado-ao-alcance-do-cliente"><span style="font-weight: 400;">Um Portfólio Diversificado ao Alcance do Cliente</span></h2>
+
+
+
+<p><span style="font-weight: 400;">O Banco PAN oferece uma ampla gama de opções de empréstimo, incluindo Empréstimos FGTS, Empréstimo Pessoal sem garantia, Empréstimo com Garantia de Veículos, Consignado e Financiamento de Veículos. Com a introdução do &#8220;Empréstimo Ideal&#8221;, os clientes são guiados através de uma jornada otimizada, direcionando-os ao produto que melhor corresponde ao seu momento de vida e às suas necessidades financeiras específicas.</span></p>
+
+
+
+<h2 class="wp-block-heading" id="comprometimento-com-a-facilidade-e-o-suporte-ao-cliente"><span style="font-weight: 400;">Comprometimento com a Facilidade e o Suporte ao Cliente</span></h2>
+
+
+
+<p><span style="font-weight: 400;">Marco Chain, Diretor de Banking do Banco PAN, destaca o compromisso do banco em facilitar a vida financeira dos clientes, oferecendo soluções inteligentes que agregam valor e praticidade ao dia a dia. O &#8220;Empréstimo Ideal&#8221; é mais um passo nessa direção, demonstrando a liderança do PAN em inovação e suporte ao consumidor no setor de crédito.</span></p>
+
+
+
+<h2 class="wp-block-heading" id="o-banco-pan-e-seu-posicionamento-no-mercado"><span style="font-weight: 400;">O Banco PAN e Seu Posicionamento no Mercado</span></h2>
+
+
+
+<p><span style="font-weight: 400;">Controlado pelo Banco <a href="https://acionando.com/?s=BTG+Pactual" rel="nofollow noopener" target="_blank">BTG Pactual S.A</a>. e com um patrimônio líquido de R＄ 8,1 bilhões, o Banco PAN se consolida como uma plataforma digital de referência, abrangendo banking, crédito, meios de pagamentos, seguros, <a href="https://acionando.com/category/investimentos/" data-internallinksmanager029f6b8e52c="21" title="Investimentos">investimentos</a> e marketplace. A instituição se destaca por seu foco no uso de tecnologia avançada para oferecer uma gama completa de produtos financeiros adaptados às necessidades dos consumidores brasileiros.</span></p>
+
+
+
+<h2 class="wp-block-heading" id="uma-revolucao-no-acesso-ao-credito"><span style="font-weight: 400;">Uma Revolução no Acesso ao Crédito</span></h2>
+
+
+
+<p><span style="font-weight: 400;">A introdução do assistente inteligente &#8220;<a href="https://www.bancopan.com.br/produtos/emprestimo/emprestimo-pessoal/" target="_blank" rel="noopener nofollow">Empréstimo Ideal</a>&#8221; pelo Banco PAN marca um momento significativo na evolução dos serviços financeiros digitais no Brasil. Simplificando a jornada de crédito e oferecendo soluções personalizadas, o PAN reforça seu papel como um aliado essencial na gestão financeira dos brasileiros. Para mais informações sobre o simulador e como ele pode ajudar na sua estratégia financeira, visite o Banco PAN hoje e descubra o <a href="https://www.bancopan.com.br/produtos/emprestimo/" target="_blank" rel="noopener nofollow">empréstimo perfeito</a> para você.</span></p>
+<p>O post <a rel="nofollow" href="/emprestimo-banco-pan-inovacao/">Empréstimo Banco PAN: Inovação com Assistente Inteligente para Simulação de Empréstimo Ideal</a> apareceu primeiro em <a rel="nofollow" href="/">Acionando.com</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Banestes Oferece Renegociação de Dívidas com Até 100% de Desconto na Semana do Consumidor</title>
+		<link>/banestes-oferece-renegociacao-de-dividas/</link>
+		
+		<dc:creator><![CDATA[Fernanda Calandro]]></dc:creator>
+		<pubDate>Mon, 11 Mar 2024 19:28:57 +0000</pubDate>
+				<category><![CDATA[Notícias]]></category>
+		<category><![CDATA[Banestes]]></category>
+		<category><![CDATA[condições especiais]]></category>
+		<category><![CDATA[descontos em juros]]></category>
+		<category><![CDATA[Feirão Zera Dívida Banestes]]></category>
+		<category><![CDATA[mutirões de renegociação]]></category>
+		<category><![CDATA[parcelamento de dívidas]]></category>
+		<category><![CDATA[Procon Cariacica]]></category>
+		<category><![CDATA[Procon Estadual]]></category>
+		<category><![CDATA[Procon Vitória]]></category>
+		<category><![CDATA[reestruturação financeira]]></category>
+		<category><![CDATA[renegociação de dívidas]]></category>
+		<category><![CDATA[Saúde Financeira]]></category>
+		<category><![CDATA[Semana do Consumidor]]></category>
+		<guid isPermaLink="false">https://acionando.com/?p=6358</guid>
+
+					<description><![CDATA[<p>Banestes Promove Renegociação de Dívidas na Semana do Consumidor com Descontos de até 100% em Juros e Parcelamento em até 120 Meses, em Parceria com Procon Estadual e Municipais.</p>
+<p>O post <a rel="nofollow" href="/banestes-oferece-renegociacao-de-dividas/">Banestes Oferece Renegociação de Dívidas com Até 100% de Desconto na Semana do Consumidor</a> apareceu primeiro em <a rel="nofollow" href="/">Acionando.com</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p><span style="font-weight: 400;">Durante a Semana do Consumidor, o Banco do Estado do Espírito Santo (<a href="https://acionando.com/?s=Banestes" rel="nofollow noopener" target="_blank">Banestes</a>) participará de três importantes mutirões de renegociação de dívidas, proporcionando aos clientes uma oportunidade única de quitar débitos com condições excepcionais. Os eventos, promovidos em parceria com o Procon Estadual e os Procons de Vitória e Cariacica, têm início nesta quarta-feira (13) e oferecem descontos de até 100% em juros, correção e multa, além de possibilitar o parcelamento em até 120 meses.</span></p>
+
+
+
+<div class="wp-block-rank-math-toc-block" id="rank-math-toc"><h2>Sumário</h2><nav><ol><li><a href="#banestes-oportunidade-de-reestruturacao-financeira">Banestes: Oportunidade de Reestruturação Financeira</a></li><li><a href="#locais-e-horarios-de-atendimento">Locais e Horários de Atendimento</a></li><li><a href="#condicoes-especiais-para-pagamento">Condições Especiais para Pagamento</a></li><li><a href="#quem-pode-participar">Quem Pode Participar</a></li><li><a href="#documentacao-necessaria">Documentação Necessária</a></li><li><a href="#participe-e-regularize-suas-financas">Participe e Regularize suas Finanças</a></li><li><a href="#mutiroes-de-renegociacao-de-dividas-da-semana-do-consumidor">Mutirões de renegociação de Dívidas da Semana do Consumidor</a></li></ol></nav></div>
+
+
+
+<h2 class="wp-block-heading" id="banestes-oportunidade-de-reestruturacao-financeira"><span style="font-weight: 400;">Banestes: Oportunidade de Reestruturação Financeira</span></h2>
+
+
+
+<p><span style="font-weight: 400;">A iniciativa tem como objetivo principal oferecer uma chance para que consumidores endividados possam regularizar suas situações financeiras. Diante de desafios econômicos crescentes, ações como estas são fundamentais para promover a saúde financeira da população, auxiliando diretamente na reestruturação de dívidas e na prevenção de futuros endividamentos.</span></p>
+
+
+
+<h2 class="wp-block-heading" id="locais-e-horarios-de-atendimento"><span style="font-weight: 400;">Locais e Horários de Atendimento</span></h2>
+
+
+
+<p><span style="font-weight: 400;">Os atendimentos ocorrerão em locais estratégicos para facilitar o acesso dos consumidores. Em Cariacica, o Procon Municipal estará à disposição no Centro Administrativo da Prefeitura, com atendimentos estendendo-se de quarta-feira (13) até sábado (16), em horários específicos para melhor atender ao público. Já em Vitória, tanto o Procon Estadual quanto o Procon Municipal realizarão os atendimentos de quarta a sexta-feira, com horários definidos para garantir a eficiência dos serviços.</span></p>
+
+
+
+<h2 class="wp-block-heading" id="condicoes-especiais-para-pagamento"><span style="font-weight: 400;">Condições Especiais para Pagamento</span></h2>
+
+
+
+<p><span style="font-weight: 400;"><a href="https://acionando.com/?s=Banestes" rel="nofollow noopener" target="_blank">Banestes</a> estabelece condições especiais para essa ação, incluindo a possibilidade de até 100% de desconto em juros, correções e multas, além de parcelamento flexível. Essas condições são um reflexo do compromisso do banco em auxiliar seus clientes na gestão de suas finanças, oferecendo soluções pragmáticas para a quitação de débitos.</span></p>
+
+
+
+<h2 class="wp-block-heading" id="quem-pode-participar"><span style="font-weight: 400;">Quem Pode Participar</span></h2>
+
+
+
+<p><span style="font-weight: 400;">Os mutirões de renegociação são abertos a clientes pessoa física e jurídica do <a href="https://acionando.com/?s=Banestes" rel="nofollow noopener" target="_blank">Banestes</a>, incluindo aqueles com dívidas judicializadas ou não, desde que o atraso seja superior a 60 dias. A ampla gama de produtos renegociáveis demonstra a versatilidade das soluções oferecidas pelo banco, embora alguns produtos específicos, como crédito imobiliário e Pronampe, requeiram negociações apartadas devido às suas peculiaridades.</span></p>
+
+
+
+<h2 class="wp-block-heading" id="documentacao-necessaria"><span style="font-weight: 400;">Documentação Necessária</span></h2>
+
+
+
+<p><span style="font-weight: 400;">Para participar, é essencial que os interessados levem consigo documentos básicos de identificação e, se possível, comprovantes de renda, facilitando o processo de avaliação financeira e negociação.</span></p>
+
+
+
+<h2 class="wp-block-heading" id="participe-e-regularize-suas-financas"><span style="font-weight: 400;">Participe e Regularize suas Finanças</span></h2>
+
+
+
+<p><span style="font-weight: 400;">A Semana do Consumidor representa uma oportunidade valiosa para clientes do <a href="https://acionando.com/?s=Banestes" rel="nofollow noopener" target="_blank">Banestes</a> regularizarem suas finanças com condições vantajosas. Aproveite os descontos significativos e o parcelamento facilitado para iniciar um novo ciclo financeiro com maior tranquilidade e segurança.</span></p>
+
+
+
+<p><span style="font-weight: 400;">Para mais informações sobre o evento e detalhes de como participar, os consumidores são encorajados a procurar os locais de atendimento indicados, visando aproveitar ao máximo as condições especiais oferecidas pelo <a href="https://wwws.banestes.com.br/netib/FaleRenegociacao" target="_blank" rel="noopener nofollow">Banestes</a> nesta ação exclusiva. Não perca esta chance de zera suas dívidas e melhorar sua saúde financeira com o apoio de uma das principais instituições financeiras do Espírito Santo.</span></p>
+
+
+
+<h2 class="wp-block-heading" id="mutiroes-de-renegociacao-de-dividas-da-semana-do-consumidor"><span style="font-weight: 400;">Mutirões de renegociação de Dívidas da Semana do Consumidor</span></h2>
+
+
+
+<p><strong>Procon Cariacica</strong></p>
+
+
+
+<ul>
+<li><span style="font-weight: 400;">Data: 13 a 16 de março</span></li>
+
+
+
+<li><span style="font-weight: 400;">Horário: 09h às 17h (nos dias 13, 14 e 15) e de 09h às 13h (dia 16)</span></li>
+
+
+
+<li><span style="font-weight: 400;">Local: Centro Administrativo da Prefeitura de Cariacica &#8211; Av. Alice Coutinho, s/nº, Vera Cruz, Cariacica</span></li>
+</ul>
+
+
+
+<p><strong>Procon Vitória</strong></p>
+
+
+
+<ul>
+<li><span style="font-weight: 400;">Data: 13 e 15 de março</span></li>
+
+
+
+<li><span style="font-weight: 400;">Horário: 09h às 17 horas</span></li>
+
+
+
+<li><span style="font-weight: 400;">Local: Casa do Cidadão, Procon Vitória &#8211; Av. Maruípe, nº 2544, bloco A, Bairro Itararé, Vitória</span></li>
+</ul>
+
+
+
+<p><strong>Procon Estadual</strong></p>
+
+
+
+<ul>
+<li><span style="font-weight: 400;">Data: 13 a 15 de março</span></li>
+
+
+
+<li><span style="font-weight: 400;">Horário: 09h às 17 horas</span></li>
+
+
+
+<li><span style="font-weight: 400;">Local: Sede do Procon Estadual &#8211; Av. Jerônimo Monteiro, nº 935, Centro, Vitória&nbsp;</span></li>
+</ul>
+<p>O post <a rel="nofollow" href="/banestes-oferece-renegociacao-de-dividas/">Banestes Oferece Renegociação de Dívidas com Até 100% de Desconto na Semana do Consumidor</a> apareceu primeiro em <a rel="nofollow" href="/">Acionando.com</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>ETFs do Nubank Atingem R＄ 57 Milhões em Investimentos com Melhor Retorno da Categoria&#8221;</title>
+		<link>/etfs-do-nubank-atingem-r%ef%bc%84-57-milhoes/</link>
+		
+		<dc:creator><![CDATA[Fernanda Calandro]]></dc:creator>
+		<pubDate>Mon, 11 Mar 2024 19:17:36 +0000</pubDate>
+				<category><![CDATA[Notícias]]></category>
+		<category><![CDATA[acessibilidade financeira]]></category>
+		<category><![CDATA[diversificação de portfólio]]></category>
+		<category><![CDATA[dividendos mensais]]></category>
+		<category><![CDATA[ETFs Nubank]]></category>
+		<category><![CDATA[índice Bovespa Smart Dividendos]]></category>
+		<category><![CDATA[Inovação Financeira]]></category>
+		<category><![CDATA[investimento mínimo]]></category>
+		<category><![CDATA[investimentos Nubank]]></category>
+		<category><![CDATA[mercado brasileiro de ETFs]]></category>
+		<category><![CDATA[mercado de ações brasileiro]]></category>
+		<category><![CDATA[NDIV11]]></category>
+		<category><![CDATA[NSDV11]]></category>
+		<category><![CDATA[Nu Asset]]></category>
+		<category><![CDATA[renda passiva]]></category>
+		<category><![CDATA[retorno de investimento]]></category>
+		<guid isPermaLink="false">https://acionando.com/?p=6352</guid>
+
+					<description><![CDATA[<p>ETFs do Nubank Acumulam R＄ 57 Milhões em Investimentos: NSDV11 e NDIV11 Destacam-se por Superioridade em Retorno e Inovação em Pagamento de Dividendos Mensais.</p>
+<p>O post <a rel="nofollow" href="/etfs-do-nubank-atingem-r%ef%bc%84-57-milhoes/">ETFs do Nubank Atingem R＄ 57 Milhões em Investimentos com Melhor Retorno da Categoria&#8221;</a> apareceu primeiro em <a rel="nofollow" href="/">Acionando.com</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p><span style="font-weight: 400;">Apenas cinco meses após o lançamento, os ETFs NSDV11 e NDIV11, iniciativas do <a href="https://acionando.com/?s=Nubank+" rel="nofollow noopener" target="_blank">Nubank</a> por meio da Nu Asset, já marcaram presença significativa no mercado financeiro brasileiro. Com mais de R＄ 57 milhões acumulados em <a href="https://acionando.com/category/investimentos/" data-internallinksmanager029f6b8e52c="21" title="Investimentos">investimentos</a> e liderando o retorno entre os ETFs de ações brasileiras, esses fundos se destacam por sua inovação e performance superior.</span></p>
+
+
+
+<div class="wp-block-rank-math-toc-block" id="rank-math-toc"><h2>Sumário</h2><nav><ol><li><a href="#desempenho-excepcional-e-inovacao-em-investimentos">Desempenho Excepcional e Inovação em Investimentos</a></li><li><a href="#ndiv-11-pagamento-mensal-de-dividendos-como-diferencial">NDIV11: Pagamento Mensal de Dividendos Como Diferencial</a></li><li><a href="#compromisso-com-solucoes-assertivas-para-investidores">Compromisso com Soluções Assertivas para Investidores</a></li><li><a href="#metodologia-exclusiva-e-parceria-com-a-b-3">Metodologia Exclusiva e Parceria com a B3</a></li><li><a href="#diversificacao-otimizada-e-renda-passiva">Diversificação Otimizada e Renda Passiva</a></li><li><a href="#acessibilidade-e-oportunidades-para-todos-os-investidores">Acessibilidade e Oportunidades para Todos os Investidores</a></li><li><a href="#faca-parte-da-revolucao-financeira-com-os-et-fs-do-nubank">Faça Parte da Revolução Financeira com os ETFs do Nubank</a></li></ol></nav></div>
+
+
+
+<h2 class="wp-block-heading" id="desempenho-excepcional-e-inovacao-em-investimentos"><span style="font-weight: 400;">Desempenho Excepcional e Inovação em Investimentos</span></h2>
+
+
+
+<p><span style="font-weight: 400;">O NSDV11, em particular, tem demonstrado uma performance notável desde sua concepção, com um retorno líquido impressionante de 17,10%, superando todos os outros ETFs baseados em ações brasileiras. Este sucesso é atribuído à sua baixa volatilidade e à eficiente alocação de ativos, refletida em seu alto &#8220;information ratio&#8221;. Além disso, o NSDV11 reinveste automaticamente os dividendos, um recurso atraente para seus 4.300 cotistas, consolidando-se como uma das opções mais robustas no mercado de ETFs no Brasil.</span></p>
+
+
+
+<h2 class="wp-block-heading" id="ndiv-11-pagamento-mensal-de-dividendos-como-diferencial"><span style="font-weight: 400;">NDIV11: Pagamento Mensal de Dividendos Como Diferencial</span></h2>
+
+
+
+<p><span style="font-weight: 400;">Por outro lado, o NDIV11 inova ao oferecer pagamentos mensais de dividendos, uma vantagem significativa para investidores em busca de renda passiva. Com um retorno de 14,16% no período analisado e distribuindo mais de R＄640 mil em dividendos nos primeiros cinco meses, este ETF se apresenta como uma excelente escolha para quem deseja diversificar seu portfólio e ao mesmo tempo obter uma renda previsível.</span></p>
+
+
+
+<h2 class="wp-block-heading" id="compromisso-com-solucoes-assertivas-para-investidores"><span style="font-weight: 400;">Compromisso com Soluções Assertivas para Investidores</span></h2>
+
+
+
+<p><span style="font-weight: 400;">Andrés Kikuchi, diretor-executivo da Nu Asset Management, ressalta a missão da empresa em desenvolver produtos que atendam às necessidades dos investidores de forma assertiva. A ênfase na criação de ETFs como o NSDV11 e o NDIV11 reflete a dedicação do <a href="https://acionando.com/?s=Nubank+" rel="nofollow noopener" target="_blank">Nubank</a> em oferecer alternativas de <a href="https://acionando.com/category/investimentos/" data-internallinksmanager029f6b8e52c="7" title="Categorai investimento">investimento</a> que não apenas promovam a diversificação, mas também maximizem o retorno para os cotistas.</span></p>
+
+
+
+<h2 class="wp-block-heading" id="metodologia-exclusiva-e-parceria-com-a-b-3"><span style="font-weight: 400;">Metodologia Exclusiva e Parceria com a B3</span></h2>
+
+
+
+<p><span style="font-weight: 400;">Os ETFs do <a href="https://acionando.com/?s=Nubank+" rel="nofollow noopener" target="_blank">Nubank</a> seguem o índice Bovespa Smart Dividendos B3, fruto de uma parceria estratégica com a bolsa de valores brasileira. Esse índice seleciona empresas com histórico consistente de pagamento de dividendos, ponderando-as não apenas pela quantidade, mas também pela regularidade e estabilidade dos proventos pagos. Tal abordagem garante que os <a href="https://acionando.com/category/investimentos/" data-internallinksmanager029f6b8e52c="21" title="Investimentos">investimentos</a> dos ETFs estejam alinhados com companhias que demonstram solidez financeira e compromisso com seus acionistas.</span></p>
+
+
+
+<h2 class="wp-block-heading" id="diversificacao-otimizada-e-renda-passiva"><span style="font-weight: 400;">Diversificação Otimizada e Renda Passiva</span></h2>
+
+
+
+<p><span style="font-weight: 400;">A estratégia de <a href="https://acionando.com/category/investimentos/" data-internallinksmanager029f6b8e52c="7" title="Categorai investimento">investimento</a> dos ETFs da Nu Asset ressalta o compromisso do <a href="https://acionando.com/?s=Nubank+" rel="nofollow noopener" target="_blank">Nubank</a> em oferecer soluções que combinem diversificação otimizada com a geração de renda passiva. O NDIV11, em particular, exemplifica essa filosofia ao padronizar o pagamento de dividendos, simplificando a gestão de renda para os investidores e proporcionando maior previsibilidade financeira.</span></p>
+
+
+
+<h2 class="wp-block-heading" id="acessibilidade-e-oportunidades-para-todos-os-investidores"><span style="font-weight: 400;">Acessibilidade e Oportunidades para Todos os Investidores</span></h2>
+
+
+
+<p><span style="font-weight: 400;">Com <a href="https://acionando.com/category/investimentos/" data-internallinksmanager029f6b8e52c="21" title="Investimentos">investimentos</a> iniciais acessíveis, os ETFs do <a href="https://acionando.com/?s=Nubank+" rel="nofollow noopener" target="_blank">Nubank </a>estão disponíveis a uma ampla gama de investidores, desde indivíduos realizando suas primeiras incursões no mercado de ações até instituições financeiras buscando diversificar suas carteiras. A flexibilidade e a acessibilidade desses produtos enfatizam a missão do Nubank de democratizar o acesso a serviços financeiros de qualidade e inovadores na América Latina.</span></p>
+
+
+
+<h2 class="wp-block-heading" id="faca-parte-da-revolucao-financeira-com-os-et-fs-do-nubank"><span style="font-weight: 400;">Faça Parte da Revolução Financeira com os ETFs do Nubank</span></h2>
+
+
+
+<p><span style="font-weight: 400;">Para investidores em busca de estratégias diversificadas e renda passiva, os ETFs NSDV11 e NDIV11 do <a href="https://acionando.com/?s=Nubank+" rel="nofollow noopener" target="_blank">Nubank</a> representam oportunidades imperdíveis. Com desempenho excepcional, inovação em pagamentos de dividendos e a solidez de uma das maiores instituições financeiras digitais do mundo, esses fundos são escolhas ideais para quem deseja potencializar seus investimentos. Entre em contato com a <a href="https://blog.nubank.com.br/ndiv11-nsdv11-tudo-sobre-etfs-nubank/" target="_blank" rel="noopener nofollow">Nu Asset</a> hoje mesmo e descubra como você pode fazer parte desta revolução financeira.</span></p>
+<p>O post <a rel="nofollow" href="/etfs-do-nubank-atingem-r%ef%bc%84-57-milhoes/">ETFs do Nubank Atingem R＄ 57 Milhões em Investimentos com Melhor Retorno da Categoria&#8221;</a> apareceu primeiro em <a rel="nofollow" href="/">Acionando.com</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Varejo Brasileiro Registra Queda de 4,1% em Fevereiro: Análise dos 6 Segmentos Revela</title>
+		<link>/varejo-brasileiro-registra-queda-de-41/</link>
+		
+		<dc:creator><![CDATA[Fernanda Calandro]]></dc:creator>
+		<pubDate>Mon, 11 Mar 2024 18:28:42 +0000</pubDate>
+				<category><![CDATA[Notícias]]></category>
+		<category><![CDATA[análise estadual]]></category>
+		<category><![CDATA[artigos farmacêuticos]]></category>
+		<category><![CDATA[Crescimento Setorial]]></category>
+		<category><![CDATA[desempenho do varejo]]></category>
+		<category><![CDATA[economia brasileira]]></category>
+		<category><![CDATA[índice Stone Varejo]]></category>
+		<category><![CDATA[queda no varejo]]></category>
+		<category><![CDATA[segmentos varejistas]]></category>
+		<category><![CDATA[tendências do varejo]]></category>
+		<category><![CDATA[varejo brasileiro]]></category>
+		<guid isPermaLink="false">https://acionando.com/?p=6347</guid>
+
+					<description><![CDATA[<p>Varejo no Brasil Cai 4,1% em Fevereiro, Revela Índice Stone: Apenas Artigos Farmacêuticos Crescem, com Destaques Positivos em Acre, Piauí e Mato Grosso do Sul.</p>
+<p>O post <a rel="nofollow" href="/varejo-brasileiro-registra-queda-de-41/">Varejo Brasileiro Registra Queda de 4,1% em Fevereiro: Análise dos 6 Segmentos Revela</a> apareceu primeiro em <a rel="nofollow" href="/">Acionando.com</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p><span style="font-weight: 400;">O cenário do<a href="https://acionando.com/?s=varejo" rel="nofollow noopener" target="_blank"> varejo</a> brasileiro em fevereiro mostrou uma tendência negativa, com uma queda de 4,1% no volume de vendas, de acordo com o Índice Stone Varejo. Este resultado reflete os desafios enfrentados pelos varejistas e destaca a importância de estratégias inovadoras e adaptativas no setor.</span></p>
+
+
+
+<div id="rank-math-toc" class="wp-block-rank-math-toc-block"><nav>
+<ol>
+<li><a href="#analise-detalhada-por-segmento">Análise Detalhada por Segmento</a></li>
+<li><a href="#desempenho-estadual-mostra-disparidades">Desempenho Estadual Mostra Disparidades</a></li>
+<li><a href="#metodologia-do-estudo-e-importancia-para-o-varejo">Metodologia do Estudo e Importância para o Varejo</a></li>
+<li><a href="#queda-significativa-em-diversos-segmentos">Queda Significativa em Diversos Segmentos</a></li>
+<li><a href="#plataforma-do-instituto-propague-oferece-insights-valiosos">Plataforma do Instituto Propague Oferece Insights Valiosos</a></li>
+<li><a href="#impacto-regional-e-estrategias-de-adaptacao">Impacto Regional e Estratégias de Adaptação</a></li>
+<li><a href="#conclusao-e-perspectivas-futuras">Conclusão e Perspectivas Futuras</a></li>
+<li><a href="#sobre-a-stone-e-o-instituto-propague">Sobre a Stone e o Instituto Propague</a></li>
+</ol>
+</nav></div>
+
+
+
+<h2 id="analise-detalhada-por-segmento" class="wp-block-heading"><span style="font-weight: 400;">Análise Detalhada por Segmento</span></h2>
+
+
+
+<p><span style="font-weight: 400;">Entre os seis segmentos analisados, apenas o setor de artigos farmacêuticos desafiou a tendência geral, registrando um crescimento anual de 2,3%. Este dado sugere uma resiliência e possivelmente uma demanda consistente por produtos de saúde e bem-estar em meio a um panorama econômico desafiador.</span></p>
+
+
+
+<h2 id="desempenho-estadual-mostra-disparidades" class="wp-block-heading"><span style="font-weight: 400;">Desempenho Estadual Mostra Disparidades</span></h2>
+
+
+
+<p><span style="font-weight: 400;">No recorte estadual, os dados revelaram que somente Acre, Piauí e Mato Grosso do Sul tiveram resultados positivos, com respectivas altas de 2,8%, 1,8% e 0,3%. Esse desempenho heterogêneo entre os estados brasileiros aponta para a complexidade do mercado varejista nacional e a necessidade de abordagens regionalizadas.</span></p>
+
+
+
+<h2 id="metodologia-do-estudo-e-importancia-para-o-varejo" class="wp-block-heading"><span style="font-weight: 400;">Metodologia do Estudo e Importância para o Varejo</span></h2>
+
+
+
+<p><span style="font-weight: 400;">O Índice de Atividade Econômica Stone Varejo, fruto da parceria entre a Stone e o Instituto Propague, utiliza uma metodologia avançada que contempla operações via cartões e Pix. O objetivo é fornecer uma visão abrangente das movimentações no varejo, auxiliando varejistas na compreensão de tendências e na tomada de decisões estratégicas.</span></p>
+
+
+
+<h2 id="queda-significativa-em-diversos-segmentos" class="wp-block-heading"><span style="font-weight: 400;">Queda Significativa em Diversos Segmentos</span></h2>
+
+
+
+<p><span style="font-weight: 400;">A análise segmentada indicou que cinco dos seis segmentos enfrentaram quedas notáveis, com o setor de tecidos, vestuário e calçados liderando as baixas com 11,6%. Esses números ressaltam os desafios enfrentados pelo <a href="https://acionando.com/?s=varejo" rel="nofollow noopener" target="_blank">varejo</a> em adaptar-se às mudanças no comportamento do consumidor e às incertezas econômicas.</span></p>
+
+
+
+<h2 id="plataforma-do-instituto-propague-oferece-insights-valiosos" class="wp-block-heading"><span style="font-weight: 400;">Plataforma do Instituto Propague Oferece Insights Valiosos</span></h2>
+
+
+
+<p><span style="font-weight: 400;">Para aqueles interessados em explorar mais profundamente esses dados, o dashboard do Instituto Propague centraliza informações cruciais, tornando a pesquisa e análise mais acessíveis. A plataforma reflete o compromisso da Stone e do Instituto Propague em apoiar o setor varejista com dados acionáveis.</span></p>
+
+
+
+<h2 id="impacto-regional-e-estrategias-de-adaptacao" class="wp-block-heading"><span style="font-weight: 400;">Impacto Regional e Estratégias de Adaptação</span></h2>
+
+
+
+<p><span style="font-weight: 400;">Os destaques regionais, especialmente as quedas expressivas em estados como Alagoas, Pará e Pernambuco, enfatizam a importância de estratégias adaptativas que levem em consideração as particularidades regionais. Varejistas bem-sucedidos serão aqueles capazes de entender e responder às dinâmicas locais.</span></p>
+
+
+
+<h2 id="conclusao-e-perspectivas-futuras" class="wp-block-heading"><span style="font-weight: 400;">Conclusão e Perspectivas Futuras</span></h2>
+
+
+
+<p><span style="font-weight: 400;">Embora o cenário atual do <a href="https://acionando.com/?s=varejo" rel="nofollow noopener" target="_blank">varejo</a> brasileiro mostre desafios, existem oportunidades claras para inovação e crescimento. A <a href="https://propaguebackup.blob.core.windows.net/images/2024/03/Stone-Varejo_fevereiro-registra-nova-queda-de-41-no-setor.pdf" target="_blank" rel="noopener nofollow">análise detalhada</a> fornecida pelo Índice de Atividade Econômica Stone Varejo é um recurso valioso para os varejistas que buscam navegar neste ambiente complexo e encontrar caminhos para o sucesso.</span></p>
+
+
+
+<h2 id="sobre-a-stone-e-o-instituto-propague" class="wp-block-heading"><span style="font-weight: 400;">Sobre a Stone e o Instituto Propague</span></h2>
+
+
+
+<p><span style="font-weight: 400;">Tanto a Stone quanto o Instituto Propague desempenham papéis cruciais em apoiar o crescimento e a inovação no varejo brasileiro. A Stone, com sua plataforma de soluções completas, e o Instituto Propague, focado na expansão do debate sobre o sistema financeiro, são parceiros fundamentais para o varejo em sua busca por prosperidade e adaptação às novas realidades do mercado.</span></p>
+<p>O post <a rel="nofollow" href="/varejo-brasileiro-registra-queda-de-41/">Varejo Brasileiro Registra Queda de 4,1% em Fevereiro: Análise dos 6 Segmentos Revela</a> apareceu primeiro em <a rel="nofollow" href="/">Acionando.com</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Mulheres investidoras na B3: 5 Dados Surpreendentes sobre o Crescimento nos Últimos 5 Anos</title>
+		<link>/mulheres-investidoras-na-b3/</link>
+		
+		<dc:creator><![CDATA[Fernanda Calandro]]></dc:creator>
+		<pubDate>Fri, 08 Mar 2024 16:56:10 +0000</pubDate>
+				<category><![CDATA[Notícias]]></category>
+		<category><![CDATA[B3]]></category>
+		<category><![CDATA[crescimento de jovens investidoras]]></category>
+		<category><![CDATA[diversificação de carteira]]></category>
+		<category><![CDATA[educação financeira]]></category>
+		<category><![CDATA[fundos imobiliários]]></category>
+		<category><![CDATA[investimento inicial]]></category>
+		<category><![CDATA[mercado de ações]]></category>
+		<category><![CDATA[mulheres investidoras]]></category>
+		<category><![CDATA[participação feminina]]></category>
+		<category><![CDATA[saldo médio]]></category>
+		<guid isPermaLink="false">https://acionando.com/?p=6341</guid>
+
+					<description><![CDATA[<p>Mais de 1 Milhão de Mulheres na B3: Investimentos Altos, Preferência por Ações e Crescimento entre Jovens e Fundos Imobiliários nos Últimos 5 Anos</p>
+<p>O post <a rel="nofollow" href="/mulheres-investidoras-na-b3/">Mulheres investidoras na B3: 5 Dados Surpreendentes sobre o Crescimento nos Últimos 5 Anos</a> apareceu primeiro em <a rel="nofollow" href="/">Acionando.com</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p><span style="font-weight: 400;">A <a href="https://www.b3.com.br/pt_br/market-data-e-indices/servicos-de-dados/market-data/consultas/mercado-a-vista/perfil-pessoas-fisicas/perfil-pessoa-fisica/" target="_blank" rel="noopener nofollow">recente pesquisa</a> divulgada pela <a href="https://acionando.com/?s=b3" rel="nofollow noopener" target="_blank">B3</a> revelou um avanço significativo na participação das mulheres investidoras. Nos últimos cinco anos, mais de 1 milhão de mulheres brasileiras deram seus primeiros passos na B3, demonstrando não apenas um interesse crescente pela renda variável, mas também uma abordagem de <a href="https://acionando.com/category/investimentos/" data-internallinksmanager029f6b8e52c="7" title="Categorai investimento">investimento</a> que se distingue significativamente da dos homens. Este marco ressalta a crescente democratização do acesso ao mercado de ações e sublinha a importância da representatividade feminina no setor financeiro.</span></p>
+
+
+
+<div class="wp-block-rank-math-toc-block" id="rank-math-toc"><h2>Sumário</h2><nav><ol><li><a href="#o-avanco-das-mulheres-investidoras-na-b-3">O Avanço das Mulheres Investidoras na B3</a></li><li><a href="#saldo-medio-revela-desigualdade-de-genero">Saldo Médio Revela Desigualdade de Gênero</a></li><li><a href="#a-preferencia-das-mulheres-por-ativos-de-renda-variavel">A Preferência das Mulheres por Ativos de Renda Variável</a></li><li><a href="#jovens-mulheres-e-educacao-financeira">Jovens Mulheres e Educação Financeira</a></li><li><a href="#empoderamento-feminino-e-transformacao-do-mercado-financeiro">Empoderamento Feminino e Transformação do Mercado Financeiro</a></li></ol></nav></div>
+
+
+
+<h2 class="wp-block-heading" id="o-avanco-das-mulheres-investidoras-na-b-3"><span style="font-weight: 400;">O Avanço das Mulheres Investidoras na B3</span></h2>
+
+
+
+<p><span style="font-weight: 400;">Uma das descobertas mais notáveis da pesquisa da<a href="https://acionando.com/?s=b3" rel="nofollow noopener" target="_blank"> B3</a> é o valor mediano do primeiro <a href="https://acionando.com/category/investimentos/" data-internallinksmanager029f6b8e52c="7" title="Categorai investimento">investimento</a> feito por mulheres, situando-se em R$ 167, comparativamente superior ao dos homens, que é de R$ 62. Este valor reflete não só um comprometimento financeiro mais substancial desde o início, mas também uma entrada mais cautelosa e preparada no mercado de ações. Historicamente, as mulheres começaram com um aporte inicial maior do que os homens, uma tendência que persiste apesar de uma redução geral dos valores ao longo dos anos, indicando uma abertura mais ampla do mercado.</span></p>
+
+
+
+<h2 class="wp-block-heading" id="saldo-medio-revela-desigualdade-de-genero"><span style="font-weight: 400;">Saldo Médio Revela Desigualdade de Gênero</span></h2>
+
+
+
+<p><span style="font-weight: 400;">Ao analisar o saldo médio de investimento no ano de entrada, observa-se que as mulheres investidoras possuem um montante quase três vezes maior do que o dos homens, com R$ 26 mil contra R$ 9,8 mil. Esta diferença notável aponta para uma disparidade de gênero significativa em termos de recursos financeiros dedicados ao investimento inicial, sugerindo que as mulheres, quando decidem investir, o fazem com uma convicção e um planejamento financeiro mais sólidos.</span></p>
+
+
+
+<h2 class="wp-block-heading" id="a-preferencia-das-mulheres-por-ativos-de-renda-variavel"><span style="font-weight: 400;">A Preferência das Mulheres por Ativos de Renda Variável</span></h2>
+
+
+
+<p><span style="font-weight: 400;">Em termos de escolha de ativos, as ações dominam as preferências das mulheres investidoras, com 951,9 mil investidoras aplicando um total de R$ 85,2 bilhões. Este interesse demonstra não apenas uma familiaridade crescente com o mercado de ações, mas também uma tendência à diversificação, visto que mais da metade das investidoras (694,8 mil) optam por mais de um produto de renda variável em suas carteiras. Além disso, os fundos imobiliários emergem como uma escolha crescente, com um aumento de 19% na preferência feminina por este tipo de investimento no último ano.</span></p>
+
+
+
+<h2 class="wp-block-heading" id="jovens-mulheres-e-educacao-financeira"><span style="font-weight: 400;">Jovens Mulheres e Educação Financeira</span></h2>
+
+
+
+<p><span style="font-weight: 400;">A pesquisa também destaca um aumento significativo na participação das jovens mulheres investidoras, especialmente na faixa etária de 18 a 24 anos. Este crescimento enfatiza a importância da educação financeira e do acesso à informação, áreas nas quais a B3 tem se esforçado para oferecer recursos direcionados. Através do site da<a href="https://acionando.com/?s=b3" rel="nofollow noopener" target="_blank"> B3</a> Educação e do aplicativo HUB3, são disponibilizados conteúdos gratuitos produzidos por mulheres, promovendo a representatividade e incentivando mais mulheres a começarem a investir.</span></p>
+
+
+
+<h2 class="wp-block-heading" id="empoderamento-feminino-e-transformacao-do-mercado-financeiro"><span style="font-weight: 400;">Empoderamento Feminino e Transformação do Mercado Financeiro</span></h2>
+
+
+
+<p><span style="font-weight: 400;">O avanço das mulheres no mercado de <a href="https://acionando.com/category/investimentos/" data-internallinksmanager029f6b8e52c="21" title="Investimentos">investimentos</a> é um sinal positivo de mudança, quebrando estereótipos de longa data e promovendo uma maior inclusão financeira. A presença feminina cada vez mais forte na B3 não apenas contribui para a diversidade no mercado financeiro, mas também demonstra o potencial não explorado que as mulheres representam para a economia. À medida que mais mulheres se empoderam financeiramente, espera-se uma transformação contínua na dinâmica do mercado de <a href="https://acionando.com/category/investimentos/" data-internallinksmanager029f6b8e52c="21" title="Investimentos">investimentos</a> no Brasil.</span></p>
+<p>O post <a rel="nofollow" href="/mulheres-investidoras-na-b3/">Mulheres investidoras na B3: 5 Dados Surpreendentes sobre o Crescimento nos Últimos 5 Anos</a> apareceu primeiro em <a rel="nofollow" href="/">Acionando.com</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>PaGol Revoluciona com Promoção &#8216;Viajou com a PaGol&#8217;, Oferecendo 100 Mil Milhas Mensais Até Abril</title>
+		<link>/pagol-revoluciona-com-promocao-viajou-com-a-pagol/</link>
+		
+		<dc:creator><![CDATA[Fernanda Calandro]]></dc:creator>
+		<pubDate>Fri, 08 Mar 2024 16:41:34 +0000</pubDate>
+				<category><![CDATA[Notícias]]></category>
+		<category><![CDATA[acumulação de milhas]]></category>
+		<category><![CDATA[aplicativo de viagens]]></category>
+		<category><![CDATA[benefícios exclusivos]]></category>
+		<category><![CDATA[campanha digital]]></category>
+		<category><![CDATA[conta digital]]></category>
+		<category><![CDATA[destino dos sonhos]]></category>
+		<category><![CDATA[economia em viagens]]></category>
+		<category><![CDATA[educação financeira]]></category>
+		<category><![CDATA[estratégia de marketing]]></category>
+		<category><![CDATA[estratégias de acumulação de milhas]]></category>
+		<category><![CDATA[experiência do usuário]]></category>
+		<category><![CDATA[ganhar milhas]]></category>
+		<category><![CDATA[inovação em viagens]]></category>
+		<category><![CDATA[nostalgia em viagem]]></category>
+		<category><![CDATA[PaGol]]></category>
+		<category><![CDATA[participação em promoção]]></category>
+		<category><![CDATA[Planejamento de Viagem]]></category>
+		<category><![CDATA[promoção de viagem]]></category>
+		<category><![CDATA[serviços financeiros para viagens]]></category>
+		<category><![CDATA[sorteio de milhas]]></category>
+		<category><![CDATA[Turbo Milhas]]></category>
+		<category><![CDATA[viagem e finanças]]></category>
+		<category><![CDATA[viagens econômicas]]></category>
+		<category><![CDATA[viagens gratuitas]]></category>
+		<category><![CDATA[viajantes]]></category>
+		<guid isPermaLink="false">https://acionando.com/?p=6334</guid>
+
+					<description><![CDATA[<p>PaGol lança promoção inovadora 'Viajou com a PaGol', oferecendo 100 mil milhas mensais até abril, estimulando uso inteligente de milhas e ampliando base de clientes ativos.</p>
+<p>O post <a rel="nofollow" href="/pagol-revoluciona-com-promocao-viajou-com-a-pagol/">PaGol Revoluciona com Promoção &#8216;Viajou com a PaGol&#8217;, Oferecendo 100 Mil Milhas Mensais Até Abril</a> apareceu primeiro em <a rel="nofollow" href="/">Acionando.com</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p><span style="font-weight: 400;">Em um movimento inovador para entusiastas de viagens, a PaGol &#8211; conta digital exclusivamente desenhada para quem tem paixão por explorar novos horizontes &#8211; lança a campanha &#8216;Viajou com a PaGol&#8217;. Com a promessa de distribuir 100 mil milhas todos os meses até abril de 2024, a iniciativa visa transformar a forma como os consumidores acumulam e utilizam milhas, reforçando a educação financeira e o planejamento eficaz de viagens.</span></p>
+
+
+
+<div class="wp-block-rank-math-toc-block" id="rank-math-toc"><h2>Sumário</h2><nav><ol><li><a href="#uma-nova-era-na-educacao-financeira">Uma Nova Era na Educação Financeira</a></li><li><a href="#participe-e-explore-o-mundo">Participe e Explore o Mundo</a></li><li><a href="#marketing-e-nostalgia-uma-combinacao-vencedora">Marketing e Nostalgia: Uma Combinação Vencedora</a></li><li><a href="#a-jornada-com-a-pa-gol">A Jornada com a PaGol</a></li><li><a href="#como-participar-da-promocao">Como Participar da Promoção</a></li><li><a href="#conectando-emocoes">Conectando Emoções</a></li></ol></nav></div>
+
+
+
+<h2 class="wp-block-heading" id="uma-nova-era-na-educacao-financeira"><span style="font-weight: 400;">Uma Nova Era na Educação Financeira</span></h2>
+
+
+
+<p><span style="font-weight: 400;">A <a href="https://acionando.com/?s=pagol" rel="nofollow noopener" target="_blank">PaGol</a>, em parceria com a agência Newton, reacende o espírito viajante dos brasileiros com a promoção &#8216;Viajou com a PaGol&#8217;. Destinada a reforçar a presença da marca e encorajar o uso estratégico de milhas, essa campanha é uma porta de entrada para viagens econômicas, possibilitando que os clientes explorem o mundo sem esgotar suas finanças.</span></p>
+
+
+
+<h2 class="wp-block-heading" id="participe-e-explore-o-mundo"><span style="font-weight: 400;">Participe e Explore o Mundo</span></h2>
+
+
+
+<p><span style="font-weight: 400;">Para concorrer às milhas, os clientes da conta digital devem estar ativos e engajados com a conta, utilizando-a para ações como compras de milhas, uso do cartão de débito, pagamento de boletos, e mais. Assinantes do serviço Turbo Milhas recebem benefícios adicionais, como dez vezes mais chances no sorteio e oportunidades exclusivas para acumular milhas rapidamente.</span></p>
+
+
+
+<h2 class="wp-block-heading" id="marketing-e-nostalgia-uma-combinacao-vencedora"><span style="font-weight: 400;">Marketing e Nostalgia: Uma Combinação Vencedora</span></h2>
+
+
+
+<p><span style="font-weight: 400;"><strong>A escolha do cartão postal como peça-chave</strong></span></p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p><span style="font-weight: 400;">da campanha pela Agência Newton visa tocar o coração dos viajantes com uma pitada de nostalgia. </span></p>
+<cite><span style="font-weight: 400;">&#8220;O cartão postal é uma lembrança clássica de viagens passadas, uma escolha deliberada para evocar as alegrias da exploração,&#8221; explica Cristian Barbosa, criativo na agência. A campanha digital se estende por diversos formatos, visando alcançar os viajantes onde eles estão: online.</span></cite></blockquote>
+
+
+
+<h2 class="wp-block-heading" id="a-jornada-com-a-pa-gol"><span style="font-weight: 400;">A Jornada com a PaGol</span></h2>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p><span style="font-weight: 400;">Jean Michel, gerente de Marketing e Design da <a href="https://acionando.com/?s=pagol" rel="nofollow noopener" target="_blank">empresa</a>, destaca a visão da empresa: </span></p>
+<cite><span style="font-weight: 400;">&#8220;Vemos a PaGol não apenas como uma ferramenta para o dia da viagem, mas como um companheiro diário na jornada para alcançar destinos dos sonhos. &#8216;Viajou com a PaGol&#8217; vai além de uma promoção; é um reconhecimento da nossa comunidade apaixonada por viagens.&#8221;</span></cite></blockquote>
+
+
+
+<h2 class="wp-block-heading" id="como-participar-da-promocao"><span style="font-weight: 400;">Como Participar da Promoção</span></h2>
+
+
+
+<p><span style="font-weight: 400;">Os interessados devem se inscrever na página oficial da promoção e manter uma conta ativa, realizando uma das ações qualificativas listadas. Cada ação dá direito a um número da sorte, com os sorteios acontecendo mensalmente, prometendo agitar a base de clientes e trazer novas experiências para os sortudos vencedores.</span></p>
+
+
+
+<h2 class="wp-block-heading" id="conectando-emocoes"><span style="font-weight: 400;">Conectando Emoções</span></h2>
+
+
+
+<p><span style="font-weight: 400;">A campanha &#8216;Viajou com a PaGol&#8217; é um marco, combinando a paixão por viagens com o poder das milhas de forma nunca antes vista. Com sorteios mensais e a chance de ganhar 100 mil milhas, a PaGol está pronta para ajudar seus clientes a alcançar seus destinos dos sonhos com economia e inteligência financeira.</span></p>
+
+
+
+<p><span style="font-weight: 400;">Para mais informações sobre como participar da promoção &#8216;Viajou com a PaGol&#8217; e começar a acumular milhas para a sua próxima viagem, visite</span><a href="http://www.viajoucomapagol.com.br/" target="_blank" rel="noopener nofollow"><span style="font-weight: 400;"> www.viajoucomapagol.com.br</span></a><span style="font-weight: 400;">.</span></p>
+<p>O post <a rel="nofollow" href="/pagol-revoluciona-com-promocao-viajou-com-a-pagol/">PaGol Revoluciona com Promoção &#8216;Viajou com a PaGol&#8217;, Oferecendo 100 Mil Milhas Mensais Até Abril</a> apareceu primeiro em <a rel="nofollow" href="/">Acionando.com</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>BNDES e BB Retomam &#8216;Caminho da Escola&#8217; em 2024 com R$ 1 Bilhão para Educação e Cultura</title>
+		<link>/bndes-e-bb-retomam-caminho-da-escola-em-2024/</link>
+		
+		<dc:creator><![CDATA[Fernanda Calandro]]></dc:creator>
+		<pubDate>Thu, 07 Mar 2024 20:11:11 +0000</pubDate>
+				<category><![CDATA[Notícias]]></category>
+		<category><![CDATA[apoio à cultura]]></category>
+		<category><![CDATA[BB]]></category>
+		<category><![CDATA[BNDES]]></category>
+		<category><![CDATA[Caminho da Escola]]></category>
+		<category><![CDATA[comércio exterior]]></category>
+		<category><![CDATA[crédito para prefeituras]]></category>
+		<category><![CDATA[Cultura]]></category>
+		<category><![CDATA[Desenvolvimento Econômico]]></category>
+		<category><![CDATA[Desenvolvimento Sustentável]]></category>
+		<category><![CDATA[economia brasileira]]></category>
+		<category><![CDATA[educação]]></category>
+		<category><![CDATA[exportações brasileiras]]></category>
+		<category><![CDATA[financiamento educacional]]></category>
+		<category><![CDATA[fomento à educação]]></category>
+		<category><![CDATA[inovação]]></category>
+		<category><![CDATA[inteligência artificial]]></category>
+		<category><![CDATA[investimento em inovação]]></category>
+		<category><![CDATA[Médias Empresas]]></category>
+		<category><![CDATA[micro empresas]]></category>
+		<category><![CDATA[parceria institucional]]></category>
+		<category><![CDATA[Pequenas Empresas]]></category>
+		<category><![CDATA[renovação de frota]]></category>
+		<category><![CDATA[tecnologia]]></category>
+		<category><![CDATA[transição digital]]></category>
+		<category><![CDATA[transporte escolar]]></category>
+		<guid isPermaLink="false">https://acionando.com/?p=6321</guid>
+
+					<description><![CDATA[<p>"BNDES e BB: Parceria Renovada Promete Revolucionar Educação, Cultura e Tecnologia com Investimentos Significativos e Estratégias Inovadoras para o Desenvolvimento Sustentável do Brasil.</p>
+<p>O post <a rel="nofollow" href="/bndes-e-bb-retomam-caminho-da-escola-em-2024/">BNDES e BB Retomam &#8216;Caminho da Escola&#8217; em 2024 com R$ 1 Bilhão para Educação e Cultura</a> apareceu primeiro em <a rel="nofollow" href="/">Acionando.com</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p><span style="font-weight: 400;">O Banco Nacional de Desenvolvimento Econômico e Social (<a href="https://acionando.com/?s=BNDES+" rel="nofollow noopener" target="_blank">BNDES</a>) e o Banco do Brasil (<a href="https://acionando.com/?s=banco+do+brasil" rel="nofollow noopener" target="_blank">BB</a>) anunciam a retomada e expansão do programa &#8216;Caminho da Escola&#8217;, com um orçamento inicial de R$ 1 bilhão. Este <a href="https://acionando.com/category/investimentos/" data-internallinksmanager029f6b8e52c="7" title="Categorai investimento">investimento</a> visa renovar frotas de ônibus escolares e embarcações para prefeituras, além de ampliar o apoio à cultura e inovação em todo o país.</span></p>
+
+
+
+<div class="wp-block-rank-math-toc-block" id="rank-math-toc"><h2>Sumário</h2><nav><ol><li><a href="#bndes-e-bb-retomada-estrategica">BNDES e BB: Retomada Estratégica</a></li><li><a href="#financiamento-e-impacto">Financiamento e Impacto</a></li><li><a href="#eventos-de-engajamento-e-capacitacao">Eventos de Engajamento e Capacitação</a></li><li><a href="#ampliacao-para-cultura-e-inovacao">Ampliação para Cultura e Inovação</a></li><li><a href="#fortalecimento-do-comercio-exterior">Fortalecimento do Comércio Exterior</a></li><li><a href="#impulsionando-o-futuro-educacao-cultura-e-inovacao-na-parceria-bndes-e-bb">Impulsionando o Futuro: Educação, Cultura e Inovação na Parceria BNDES e BB</a></li></ol></nav></div>
+
+
+
+<h2 class="wp-block-heading" id="bndes-e-bb-retomada-estrategica"><span style="font-weight: 400;">BNDES e BB: Retomada Estratégica</span></h2>
+
+
+
+<p><span style="font-weight: 400;">Em 2023, <a href="https://acionando.com/?s=BNDES" rel="nofollow noopener" target="_blank">BNDES</a> e <a href="https://acionando.com/?s=banco+do+brasil" rel="nofollow noopener" target="_blank">BB</a> reiniciaram sua colaboração estratégica, prometendo reforçar ainda mais sua parceria em 2024. A retomada do &#8216;Caminho da Escola&#8217; simboliza o compromisso das instituições com o desenvolvimento educacional e cultural do Brasil.</span></p>
+
+
+
+<h2 class="wp-block-heading" id="financiamento-e-impacto"><span style="font-weight: 400;">Financiamento e Impacto</span></h2>
+
+
+
+<p><span style="font-weight: 400;">Com um financiamento generoso de R$ 1 bilhão, o programa não apenas pretende diminuir a evasão escolar através da melhoria do transporte estudantil mas também estimula a economia local e nacional. A parceria busca facilitar o acesso ao crédito para que as prefeituras possam renovar suas frotas com eficiência e segurança.</span></p>
+
+
+
+<h2 class="wp-block-heading" id="eventos-de-engajamento-e-capacitacao"><span style="font-weight: 400;">Eventos de Engajamento e Capacitação</span></h2>
+
+
+
+<p><span style="font-weight: 400;">Recentemente, um evento reuniu 560 representantes de prefeituras para discutir o acesso ao programa. Essa iniciativa, apoiada pela Frente Nacional de Prefeitas e Prefeitos e pela União Nacional dos Dirigentes de Educação, sublinha a importância do diálogo e da formação para o sucesso do programa.</span></p>
+
+
+
+<h2 class="wp-block-heading" id="ampliacao-para-cultura-e-inovacao"><span style="font-weight: 400;">Ampliação para Cultura e Inovação</span></h2>
+
+
+
+<p><span style="font-weight: 400;">Além da educação, <a href="https://acionando.com/?s=BNDES" rel="nofollow noopener" target="_blank">BNDES</a> e <a href="https://acionando.com/?s=banco+do+brasil" rel="nofollow noopener" target="_blank">BB</a> planejam ampliar sua atuação no fomento à cultura e à inovação. Este movimento reflete a visão das instituições de um futuro onde a tecnologia e a cultura caminham lado a lado com o desenvolvimento econômico.</span></p>
+
+
+
+<h2 class="wp-block-heading" id="fortalecimento-do-comercio-exterior"><span style="font-weight: 400;">Fortalecimento do Comércio Exterior</span></h2>
+
+
+
+<p><span style="font-weight: 400;">Um dos focos da parceria será também o fortalecimento das exportações brasileiras, através de linhas de crédito especiais para micro, pequenas e médias empresas, visando a transição digital e a inovação tecnológica.</span></p>
+
+
+
+<h2 class="wp-block-heading" id="impulsionando-o-futuro-educacao-cultura-e-inovacao-na-parceria-bndes-e-bb"><span style="font-weight: 400;">Impulsionando o Futuro: Educação, Cultura e Inovação na Parceria BNDES e BB</span></h2>
+
+
+
+<p><span style="font-weight: 400;">Com a retomada do <a href="https://www.gov.br/fnde/pt-br/acesso-a-informacao/acoes-e-programas/programas/caminho-da-escola" target="_blank" rel="noopener nofollow">&#8216;Caminho da Escola</a>&#8216; e novas iniciativas para cultura e inovação, o <a href="https://acionando.com/?s=BNDES" rel="nofollow noopener" target="_blank">BNDES</a> e o <a href="https://acionando.com/?s=banco+do+brasil" rel="nofollow noopener" target="_blank">BB</a> reafirmam seu compromisso com o desenvolvimento sustentável do Brasil. Estas ações preparam o terreno para um futuro de oportunidades ampliadas para as comunidades escolares e o setor produtivo brasileiro.</span></p>
+<p>O post <a rel="nofollow" href="/bndes-e-bb-retomam-caminho-da-escola-em-2024/">BNDES e BB Retomam &#8216;Caminho da Escola&#8217; em 2024 com R$ 1 Bilhão para Educação e Cultura</a> apareceu primeiro em <a rel="nofollow" href="/">Acionando.com</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>
