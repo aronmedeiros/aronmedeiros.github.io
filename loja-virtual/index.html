@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta property="fb:app_id" content="369737080820988">
+<link rel="profile" href="https://gmpg.org/xfn/11">
+<meta name="theme-color" content="#37B3B8">
+
+
+<style type="text/css">@font-face {font-family:Montserrat;font-style:normal;font-weight:100;src:url(/cf-fonts/v/montserrat/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Montserrat;font-style:normal;font-weight:100;src:url(/cf-fonts/v/montserrat/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Montserrat;font-style:normal;font-weight:100;src:url(/cf-fonts/v/montserrat/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Montserrat;font-style:normal;font-weight:100;src:url(/cf-fonts/v/montserrat/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Montserrat;font-style:normal;font-weight:100;src:url(/cf-fonts/v/montserrat/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Montserrat;font-style:normal;font-weight:200;src:url(/cf-fonts/v/montserrat/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Montserrat;font-style:normal;font-weight:200;src:url(/cf-fonts/v/montserrat/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Montserrat;font-style:normal;font-weight:200;src:url(/cf-fonts/v/montserrat/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Montserrat;font-style:normal;font-weight:200;src:url(/cf-fonts/v/montserrat/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Montserrat;font-style:normal;font-weight:200;src:url(/cf-fonts/v/montserrat/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Montserrat;font-style:normal;font-weight:300;src:url(/cf-fonts/v/montserrat/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Montserrat;font-style:normal;font-weight:300;src:url(/cf-fonts/v/montserrat/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Montserrat;font-style:normal;font-weight:300;src:url(/cf-fonts/v/montserrat/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Montserrat;font-style:normal;font-weight:300;src:url(/cf-fonts/v/montserrat/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Montserrat;font-style:normal;font-weight:300;src:url(/cf-fonts/v/montserrat/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Montserrat;font-style:normal;font-weight:400;src:url(/cf-fonts/v/montserrat/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Montserrat;font-style:normal;font-weight:400;src:url(/cf-fonts/v/montserrat/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Montserrat;font-style:normal;font-weight:400;src:url(/cf-fonts/v/montserrat/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Montserrat;font-style:normal;font-weight:400;src:url(/cf-fonts/v/montserrat/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Montserrat;font-style:normal;font-weight:400;src:url(/cf-fonts/v/montserrat/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Montserrat;font-style:normal;font-weight:500;src:url(/cf-fonts/v/montserrat/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Montserrat;font-style:normal;font-weight:500;src:url(/cf-fonts/v/montserrat/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Montserrat;font-style:normal;font-weight:500;src:url(/cf-fonts/v/montserrat/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Montserrat;font-style:normal;font-weight:500;src:url(/cf-fonts/v/montserrat/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Montserrat;font-style:normal;font-weight:500;src:url(/cf-fonts/v/montserrat/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Montserrat;font-style:normal;font-weight:600;src:url(/cf-fonts/v/montserrat/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Montserrat;font-style:normal;font-weight:600;src:url(/cf-fonts/v/montserrat/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Montserrat;font-style:normal;font-weight:600;src:url(/cf-fonts/v/montserrat/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Montserrat;font-style:normal;font-weight:600;src:url(/cf-fonts/v/montserrat/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Montserrat;font-style:normal;font-weight:600;src:url(/cf-fonts/v/montserrat/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Montserrat;font-style:normal;font-weight:700;src:url(/cf-fonts/v/montserrat/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Montserrat;font-style:normal;font-weight:700;src:url(/cf-fonts/v/montserrat/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Montserrat;font-style:normal;font-weight:700;src:url(/cf-fonts/v/montserrat/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Montserrat;font-style:normal;font-weight:700;src:url(/cf-fonts/v/montserrat/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Montserrat;font-style:normal;font-weight:700;src:url(/cf-fonts/v/montserrat/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Montserrat;font-style:normal;font-weight:800;src:url(/cf-fonts/v/montserrat/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Montserrat;font-style:normal;font-weight:800;src:url(/cf-fonts/v/montserrat/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Montserrat;font-style:normal;font-weight:800;src:url(/cf-fonts/v/montserrat/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Montserrat;font-style:normal;font-weight:800;src:url(/cf-fonts/v/montserrat/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Montserrat;font-style:normal;font-weight:800;src:url(/cf-fonts/v/montserrat/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Montserrat;font-style:normal;font-weight:900;src:url(/cf-fonts/v/montserrat/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Montserrat;font-style:normal;font-weight:900;src:url(/cf-fonts/v/montserrat/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Montserrat;font-style:normal;font-weight:900;src:url(/cf-fonts/v/montserrat/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Montserrat;font-style:normal;font-weight:900;src:url(/cf-fonts/v/montserrat/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Montserrat;font-style:normal;font-weight:900;src:url(/cf-fonts/v/montserrat/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Montserrat;font-style:italic;font-weight:100;src:url(/cf-fonts/v/montserrat/5.0.16/cyrillic/wght/italic.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Montserrat;font-style:italic;font-weight:100;src:url(/cf-fonts/v/montserrat/5.0.16/vietnamese/wght/italic.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Montserrat;font-style:italic;font-weight:100;src:url(/cf-fonts/v/montserrat/5.0.16/cyrillic-ext/wght/italic.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Montserrat;font-style:italic;font-weight:100;src:url(/cf-fonts/v/montserrat/5.0.16/latin/wght/italic.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Montserrat;font-style:italic;font-weight:100;src:url(/cf-fonts/v/montserrat/5.0.16/latin-ext/wght/italic.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Montserrat;font-style:italic;font-weight:200;src:url(/cf-fonts/v/montserrat/5.0.16/latin-ext/wght/italic.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Montserrat;font-style:italic;font-weight:200;src:url(/cf-fonts/v/montserrat/5.0.16/vietnamese/wght/italic.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Montserrat;font-style:italic;font-weight:200;src:url(/cf-fonts/v/montserrat/5.0.16/cyrillic-ext/wght/italic.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Montserrat;font-style:italic;font-weight:200;src:url(/cf-fonts/v/montserrat/5.0.16/latin/wght/italic.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Montserrat;font-style:italic;font-weight:200;src:url(/cf-fonts/v/montserrat/5.0.16/cyrillic/wght/italic.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Montserrat;font-style:italic;font-weight:300;src:url(/cf-fonts/v/montserrat/5.0.16/cyrillic/wght/italic.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Montserrat;font-style:italic;font-weight:300;src:url(/cf-fonts/v/montserrat/5.0.16/vietnamese/wght/italic.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Montserrat;font-style:italic;font-weight:300;src:url(/cf-fonts/v/montserrat/5.0.16/latin/wght/italic.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Montserrat;font-style:italic;font-weight:300;src:url(/cf-fonts/v/montserrat/5.0.16/cyrillic-ext/wght/italic.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Montserrat;font-style:italic;font-weight:300;src:url(/cf-fonts/v/montserrat/5.0.16/latin-ext/wght/italic.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Montserrat;font-style:italic;font-weight:400;src:url(/cf-fonts/v/montserrat/5.0.16/latin-ext/wght/italic.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Montserrat;font-style:italic;font-weight:400;src:url(/cf-fonts/v/montserrat/5.0.16/cyrillic/wght/italic.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Montserrat;font-style:italic;font-weight:400;src:url(/cf-fonts/v/montserrat/5.0.16/cyrillic-ext/wght/italic.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Montserrat;font-style:italic;font-weight:400;src:url(/cf-fonts/v/montserrat/5.0.16/vietnamese/wght/italic.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Montserrat;font-style:italic;font-weight:400;src:url(/cf-fonts/v/montserrat/5.0.16/latin/wght/italic.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Montserrat;font-style:italic;font-weight:500;src:url(/cf-fonts/v/montserrat/5.0.16/latin/wght/italic.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Montserrat;font-style:italic;font-weight:500;src:url(/cf-fonts/v/montserrat/5.0.16/latin-ext/wght/italic.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Montserrat;font-style:italic;font-weight:500;src:url(/cf-fonts/v/montserrat/5.0.16/vietnamese/wght/italic.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Montserrat;font-style:italic;font-weight:500;src:url(/cf-fonts/v/montserrat/5.0.16/cyrillic-ext/wght/italic.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Montserrat;font-style:italic;font-weight:500;src:url(/cf-fonts/v/montserrat/5.0.16/cyrillic/wght/italic.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Montserrat;font-style:italic;font-weight:600;src:url(/cf-fonts/v/montserrat/5.0.16/cyrillic-ext/wght/italic.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Montserrat;font-style:italic;font-weight:600;src:url(/cf-fonts/v/montserrat/5.0.16/cyrillic/wght/italic.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Montserrat;font-style:italic;font-weight:600;src:url(/cf-fonts/v/montserrat/5.0.16/vietnamese/wght/italic.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Montserrat;font-style:italic;font-weight:600;src:url(/cf-fonts/v/montserrat/5.0.16/latin/wght/italic.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Montserrat;font-style:italic;font-weight:600;src:url(/cf-fonts/v/montserrat/5.0.16/latin-ext/wght/italic.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Montserrat;font-style:italic;font-weight:700;src:url(/cf-fonts/v/montserrat/5.0.16/latin/wght/italic.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Montserrat;font-style:italic;font-weight:700;src:url(/cf-fonts/v/montserrat/5.0.16/vietnamese/wght/italic.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Montserrat;font-style:italic;font-weight:700;src:url(/cf-fonts/v/montserrat/5.0.16/cyrillic/wght/italic.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Montserrat;font-style:italic;font-weight:700;src:url(/cf-fonts/v/montserrat/5.0.16/latin-ext/wght/italic.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Montserrat;font-style:italic;font-weight:700;src:url(/cf-fonts/v/montserrat/5.0.16/cyrillic-ext/wght/italic.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Montserrat;font-style:italic;font-weight:800;src:url(/cf-fonts/v/montserrat/5.0.16/cyrillic-ext/wght/italic.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Montserrat;font-style:italic;font-weight:800;src:url(/cf-fonts/v/montserrat/5.0.16/latin/wght/italic.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Montserrat;font-style:italic;font-weight:800;src:url(/cf-fonts/v/montserrat/5.0.16/cyrillic/wght/italic.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Montserrat;font-style:italic;font-weight:800;src:url(/cf-fonts/v/montserrat/5.0.16/latin-ext/wght/italic.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Montserrat;font-style:italic;font-weight:800;src:url(/cf-fonts/v/montserrat/5.0.16/vietnamese/wght/italic.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Montserrat;font-style:italic;font-weight:900;src:url(/cf-fonts/v/montserrat/5.0.16/latin-ext/wght/italic.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Montserrat;font-style:italic;font-weight:900;src:url(/cf-fonts/v/montserrat/5.0.16/cyrillic/wght/italic.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Montserrat;font-style:italic;font-weight:900;src:url(/cf-fonts/v/montserrat/5.0.16/vietnamese/wght/italic.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Montserrat;font-style:italic;font-weight:900;src:url(/cf-fonts/v/montserrat/5.0.16/latin/wght/italic.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Montserrat;font-style:italic;font-weight:900;src:url(/cf-fonts/v/montserrat/5.0.16/cyrillic-ext/wght/italic.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}</style>
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+
+<title>Solução completa de loja virtual para você - eShopMEI</title>
+<meta name="description" content="Tenha uma loja virtual com tudo o que você precisa para vender online, com total liberdade de customização, segurança e em uma plataforma que é realmente sua.">
+<link rel="canonical" href="/loja-virtual/">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Solução completa de loja virtual para você - eShopMEI">
+<meta property="og:description" content="Tenha uma loja virtual com tudo o que você precisa para vender online, com total liberdade de customização, segurança e em uma plataforma que é realmente sua.">
+<meta property="og:url" content="/loja-virtual/">
+<meta property="og:site_name" content="eShopMEI">
+<meta property="article:modified_time" content="2022-03-11T17:18:58+00:00">
+<meta property="og:image" content="/wp-content/uploads/2021/12/loja-art-min.png">
+<meta property="og:image:width" content="531">
+<meta property="og:image:height" content="531">
+<meta property="og:image:type" content="image/png">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"/loja-virtual/","url":"/loja-virtual/","name":"Solução completa de loja virtual para você - eShopMEI","isPartOf":{"@id":"/#website"},"primaryImageOfPage":{"@id":"/loja-virtual/#primaryimage"},"image":{"@id":"/loja-virtual/#primaryimage"},"thumbnailUrl":"/wp-content/uploads/2021/12/loja-art-min.png","datePublished":"2021-11-18T12:40:45+00:00","dateModified":"2022-03-11T17:18:58+00:00","description":"Tenha uma loja virtual com tudo o que você precisa para vender online, com total liberdade de customização, segurança e em uma plataforma que é realmente sua.","breadcrumb":{"@id":"/loja-virtual/#breadcrumb"},"inLanguage":"pt-BR","potentialAction":[{"@type":"ReadAction","target":["/loja-virtual/"]}]},{"@type":"ImageObject","inLanguage":"pt-BR","@id":"/loja-virtual/#primaryimage","url":"/wp-content/uploads/2021/12/loja-art-min.png","contentUrl":"/wp-content/uploads/2021/12/loja-art-min.png","width":531,"height":531},{"@type":"BreadcrumbList","@id":"/loja-virtual/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Início","item":"/"},{"@type":"ListItem","position":2,"name":"Loja virtual"}]},{"@type":"WebSite","@id":"/#website","url":"/","name":"eShopMEI","description":"Sua empresa online","publisher":{"@id":"/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"pt-BR"},{"@type":"Organization","@id":"/#organization","name":"eShopMEI","url":"/","logo":{"@type":"ImageObject","inLanguage":"pt-BR","@id":"/#/schema/logo/image/","url":"/wp-content/uploads/2021/07/logo.png","contentUrl":"/wp-content/uploads/2021/07/logo.png","width":300,"height":105,"caption":"eShopMEI"},"image":{"@id":"/#/schema/logo/image/"},"sameAs":["https://www.linkedin.com/company/eshopmei/","https://www.instagram.com/eshopmei/"]}]}</script>
+
+<link rel="dns-prefetch" href="//www.googletagmanager.com">
+<link rel="alternate" type="application/rss+xml" title="Feed para eShopMEI &raquo;" href="/feed/">
+<link rel="alternate" type="application/rss+xml" title="Feed de comentários para eShopMEI &raquo;" href="/comments/feed/">
+<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.5.4"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"🏳️‍⚧️","🏳️​⚧️")?!1:!n(e,"🇺🇳","🇺​🇳")&&!n(e,"🏴󠁧󠁢󠁥󠁮󠁧󠁿","🏴​󠁧​󠁢​󠁥​󠁮​󠁧​󠁿");case"emoji":return!n(e,"🐦‍⬛","🐦​⬛")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<style id="wp-emoji-styles-inline-css" type="text/css">img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}</style>
+<link rel="stylesheet" id="wp-block-library-css" href="/wp-includes/css/dist/block-library/style.min.css?ver=6.5.4" type="text/css" media="all">
+<style id="classic-theme-styles-inline-css" type="text/css">/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}</style>
+<style id="global-styles-inline-css" type="text/css">body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}</style>
+<link rel="stylesheet" id="contact-form-7-css" href="/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.9.5" type="text/css" media="all">
+<link rel="stylesheet" id="wp-bootstrap-starter-bootstrap-css-css" href="/wp-content/themes/eshopmei/inc/assets/css/bootstrap.min.css?ver=6.5.4" type="text/css" media="all">
+<link rel="stylesheet" id="wp-bootstrap-pro-fontawesome-cdn-css" href="/wp-content/themes/eshopmei/inc/assets/css/fontawesome.min.css?ver=6.5.4" type="text/css" media="all">
+<link rel="stylesheet" id="wp-owl-carousel-css-css" href="/wp-content/themes/eshopmei/inc/assets/css/owl.carousel.min.css?ver=6.5.4" type="text/css" media="all">
+<link rel="stylesheet" id="wp-lightbox-css-css" href="/wp-content/themes/eshopmei/inc/assets/css/lightbox.min.css?ver=6.5.4" type="text/css" media="all">
+<link rel="stylesheet" id="wp-animate-css-css" href="/wp-content/themes/eshopmei/inc/assets/css/animate.min.css?ver=6.5.4" type="text/css" media="all">
+<link rel="stylesheet" id="wp-bootstrap-starter-style-css" href="/wp-content/themes/eshopmei/style.css?ver=1.3.4" type="text/css" media="all">
+<script type="text/javascript" src="/wp-content/themes/eshopmei/inc/assets/js/jquery.min.js?ver=3.5.1" id="jquery-min-js-js"></script>
+<link rel="https://api.w.org/" href="/wp-json/">
+<link rel="alternate" type="application/json" href="/wp-json/wp/v2/pages/277">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
+<link rel="shortlink" href="/?p=277">
+<link rel="alternate" type="application/json+oembed" href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Floja-virtual%2F">
+<link rel="alternate" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Floja-virtual%2F#038;format=xml">
+<meta name="generator" content="Site Kit by Google 1.128.1">
+<link rel="pingback" href="/xmlrpc.php"> <style type="text/css">#page-sub-header { background: #fff; }</style>
+<meta name="google-site-verification" content="IPuWLigeeq3_jpihUCXaZP48iyo-ype_7qhhQJDyAJM">
+<link rel="icon" href="/wp-content/uploads/2021/07/icon-150x150.png" sizes="32x32">
+<link rel="icon" href="/wp-content/uploads/2021/07/icon-300x300.png" sizes="192x192">
+<link rel="apple-touch-icon" href="/wp-content/uploads/2021/07/icon-300x300.png">
+<meta name="msapplication-TileImage" content="/wp-content/uploads/2021/07/icon-300x300.png">
+</head>
+<body class="page-template page-template-templante-lp page-template-templante-lp-php page page-id-277 group-blog">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1&appId=369737080820988";
+		fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+<div id="header-shadow" class="navbar-toggler"></div>
+<header id="masthead" class="fixed-top site-header navbar-static-top navbar-light" role="banner">
+<div class="container">
+<nav class="navbar navbar-expand-xl">
+<div class="navbar-brand">
+<a href="/">
+<img src="/wp-content/uploads/2022/01/logo.png" alt="eShopMEI">
+</a>
+</div>
+<button id="botaomobile" class="navbar-toggler menuactive" type="button" aria-label="Menu">
+<div class="linhasmr">
+<span class="b1"></span>
+<span class="b2"></span>
+<span class="b3"></span>
+</div>
+</button>
+<div id="main-nav" class="navbar-collapse navbar-left justify-content-end"><ul id="menu-menu-geral" class="navbar-nav">
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-200" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-200 nav-item"><a title="Home" href="/" class="nav-link">Home</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-532" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-532 nav-item"><a title="Quem somos" href="/quem-somos/" class="nav-link">Quem somos</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-463" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children dropdown active menu-item-463 nav-item">
+<a title="Nossas soluções" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-463">Nossas soluções</a>
+<ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-463" role="menu">
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-343" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-277 current_page_item active menu-item-343 nav-item"><a title="Loja virtual" href="/loja-virtual/" class="dropdown-item">Loja virtual</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-400" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-400 nav-item"><a title="Site institucional" href="/site-institucional/" class="dropdown-item">Site institucional</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-424" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-424 nav-item"><a title="Landing pages" href="/landing-pages/" class="dropdown-item">Landing pages</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-464" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-464 nav-item"><a title="Hospedagem" href="/hospedagem/" class="dropdown-item">Hospedagem</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-601" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-601 nav-item"><a title="E-mail profissional" href="/e-mail-profissional/" class="dropdown-item">E-mail profissional</a></li>
+</ul>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-571" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-571 nav-item"><a title="Portfólio" href="/portfolio/" class="nav-link">Portfólio</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-226" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-226 nav-item"><a title="Blog" href="/blog/" class="nav-link">Blog</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-665" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-665 nav-item"><a title="Contato" href="/contato/" class="nav-link">Contato</a></li>
+</ul></div> </nav>
+</div>
+</header>
+<div id="content" class="site-content">
+<section id="banner" style="background-color: #37b3b8;" class="pb-5">
+<div class="container z1 h-100">
+<div class="row justify-content-center vertical-center h-100">
+<div class="col-md-6 col-12">
+<div class="py-md-5">
+<h1 class="text-black h1 mt-0 font-weight-bold wow bounceInUp" data-wow-duration="3s">
+Tenha uma loja online, administre e amplie seu negócio de qualquer lugar<span style="color: #FC4000;">!</span> </h1>
+<p class="text-black h5 mt-3">Solução completa de loja virtual para você que está começando seu negócio online, de forma simples, acessível e otimizável.</p>
+<a class="btn btn-primary mt-3" href="https://api.whatsapp.com/send?phone=5511911182223"><i class="fas fa-angle-double-right"></i> Peça um orçamento</a>
+</div>
+</div>
+<div class="col-md-6 col-12 mt-md-0 wow bounceInUp" data-wow-duration="1s">
+<img alt title="loja-art-min" class="img-fluid px-5 pt-4" src="/wp-content/uploads/2021/12/loja-art-min.png">
+</div>
+</div>
+</div>
+
+</section>
+<section id="diferenciais" class="py-5">
+<div class="container text-center mb-3">
+<h1 class="h1 mt-0 text-black font-p mb-0 italic">
+Loja <span class="bold-italic">virtual </span> </h1>
+<p id="breadcrumbs" class="mb-0"><span><span><a href="/">Início</a></span> » <span class="breadcrumb_last" aria-current="page">Loja virtual</span></span></p> </div>
+<div class="container pt-4">
+<div class="row">
+<div class="col-md-6 col-12 mb-4">
+<div class="bg-f1 py-4 px-4 h-100 br-30 wow fadeInDown" data-wow-delay="0.2s">
+<h2 class="my-0 font-p pb-2 h5">
+<i class="fas fa-check-double h4"></i> Produtos ilimitados</h2>
+<p class="mb-0">Cadastre quantos produtos quiser, monte variações de produtos, crie diversas categorias, tenha um controle completo e sem limites.</p>
+</div>
+</div>
+<div class="col-md-6 col-12 mb-4">
+<div class="bg-f1 py-4 px-4 h-100 br-30 wow fadeInDown" data-wow-delay="0.4s">
+<h2 class="my-0 font-p pb-2 h5">
+<i class="fas fa-check-double h4"></i> Personalização e gestão</h2>
+<p class="mb-0">Altere imagens, cores, fontes, gere relatórios de vendas, controle seu estoque e muito mais em apenas um lugar.</p>
+</div>
+</div>
+<div class="col-md-6 col-12 mb-4">
+<div class="bg-f1 py-4 px-4 h-100 br-30 wow fadeInDown" data-wow-delay="0.6s">
+<h2 class="my-0 font-p pb-2 h5">
+<i class="fas fa-check-double h4"></i> Meios de pagamentos</h2>
+<p class="mb-0">Configure quantos meios de pagamentos precisar, tenha Checkout Transparente, Pix e diversos gateways e venda mais.</p>
+<img class="img-fluid mt-3" alt="Gateways de Pagamentos" title="Gateways de Pagamentos" src="/wp-content/uploads/2021/07/gateways-de-pagamentos.png">
+</div>
+</div>
+<div class="col-md-6 col-12 mb-4">
+<div class="bg-f1 py-4 px-4 h-100 br-30 wow fadeInDown" data-wow-delay="0.8s">
+<h2 class="my-0 font-p pb-2 h5">
+<i class="fas fa-check-double h4"></i> Liberdade total</h2>
+<p class="mb-0">Você também tem visitas, vendas e usuários ilimitados, acesso ao código, possibilidade de instalar plugins, integração com empresas de entrega e sem precisar pagar mais por isso.</p>
+</div>
+</div>
+</div>
+<div class="mt-md-4 mt-4">
+<a target="_blank" href="https://api.whatsapp.com/send?phone=5511911182223" class="btn btn-secondary m-auto d-table wow pulse" data-wow-iteration="infinite">Peça um orçamento</a>
+</div>
+</div>
+</section>
+<section id="modelos" class="py-5 bg-silver">
+<div class="container py-md-4">
+<div class="row">
+<div class="col-md-6 col-12 text-center mb-4 mb-md-0">
+<div class="images-flutuantes">
+<img alt="Site AmourGourmet" title="Site AmourGourmet" src="/wp-content/uploads/2021/07/amorgourmet.png" class="img-fluid wow fadeInDown img1" data-wow-delay="0.3s">
+<img alt="Loja Virtual do Marcos Bulhões" title="Loja Virtual do Marcos Bulhões" src="/wp-content/uploads/2021/07/marcosbulhoes.png" class="img-fluid wow fadeInDown img2" data-wow-delay="1s">
+<img alt="Loja Virtual do GioLucca" title="Loja Virtual do GioLucca" src="/wp-content/uploads/2021/07/giolucca.png" class="img-fluid wow fadeInDown img3" data-wow-delay="1.7s">
+<img alt="Loja Virtual Cocegas no Coração" title="Loja Virtual Cocegas no Coração" src="/wp-content/uploads/2021/07/cocegasnocoracao.png" class="img-fluid wow fadeInDown img4" data-wow-delay="2.4s">
+</div>
+</div>
+<div class="col-md-6 col-12 wow fadeInDown" data-wow-delay="0.3s">
+<div class="pl-0 pl-md-3">
+<h2 class="h2 mt-0 text-black font-p text-left mb-3 italic">
+Para todos os <br><span class="bold-italic">tipos de negócio </span> </h2>
+<p class="text-justify">Nossos temas são personalizáveis e adaptativos, assim você pode deixar seu e-commerce com a cara da sua <a href="/">empresa</a>.</p>
+<p class="text-justify">As lojas são desenvolvidas em cima da plataforma que mais cresce no mundo, responsável por 37% dos novos sites, isso traz infinitas possibilidades para sua <strong>loja virtual</strong>.</p>
+<p><img decoding="async" class="mb-4 pt-0 img-fluid" style="width: 420px;" src="/wp-content/uploads/2021/07/woocommerce-e-wordpress.png"></p>
+<p><a class="btn btn-primary m-auto m-md-0 d-table" href="https://loja.eshopmei.com/" target="_blank" rel="noopener">Veja uma demonstração</a></p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="detalhes" class="py-5">
+<div class="container pt-md-4">
+<div class="row">
+<div class="col-md-8 col-12 mb-4 mb-md-0">
+<h2 class="h2 font-p text-black text-left mt-0 mb-3 italic wow fadeInDown">
+Saiba mais detalhes e <br><span class="bold-italic">tenha seu negócio online </span> </h2>
+<p class="text-justify wow fadeInDown">
+Alcance mais pessoas vendendo online, administre seus negócios sem problemas a partir de um único e poderoso painel de controle, que além de te ajudar com as vendas, vem com ferramentas que auxiliam na estratégia de marketing da sua empresa. </p>
+<div class="row mt-5">
+<div class="col-md-6 col-12 mb-4 wow fadeInDown" data-wow-delay="0.2s">
+<div class="h3 py-0 my-0">
+<i class="fas fa-cogs text-titulo"></i>
+</div>
+<h3 class="my-0 font-p bold-italic py-3 h5">Em qualquer lugar</h3>
+<p class="mb-0 text-justify">Gerencie seu site 24 horas por dia, 7 dias por semana. Adicione novos produtos, veja estoque, mude os status dos pedidos, crie cupons e muito mais.</p>
+</div>
+<div class="col-md-6 col-12 mb-4 wow fadeInDown" data-wow-delay="0.4s">
+<div class="h3 py-0 my-0">
+<i class="fas fa-palette text-titulo"></i>
+</div>
+<h3 class="my-0 font-p bold-italic py-3 h5">O controle em suas mãos</h3>
+<p class="mb-0 text-justify">Altere banner, sessões, produtos, cores, fontes, imagens diretamente pelo seu login, sua loja virtual do seu jeito e com as principais funções do mercado.</p>
+</div>
+<div class="col-md-6 col-12 mb-4 wow fadeInDown" data-wow-delay="0.6s">
+<div class="h3 py-0 my-0">
+<i class="fas fa-map-marked-alt text-titulo"></i>
+</div>
+<h3 class="my-0 font-p bold-italic py-3 h5">Seja encontrado online</h3>
+<p class="mb-0 text-justify">As lojas são otimizadas para os mecanismos de pesquisa como o Google e você pode criar automaticamente padrões de SEO (Search Engine Optimization) e aplicar nas páginas de produtos para economizar tempo e classificação nas páginas de resultados de pesquisa.</p>
+</div>
+<div class="col-md-6 col-12 mb-4 wow fadeInDown" data-wow-delay="0.8s">
+<div class="h3 py-0 my-0">
+<i class="fas fa-chart-line text-titulo"></i>
+</div>
+<h3 class="my-0 font-p bold-italic py-3 h5">Aumente as Vendas</h3>
+<p class="mb-0 text-justify">Promova o seu negócio com ferramentas de marketing integradas, como campanhas de marketing por e-mail via mailchimp, conecte sua loja com marketplaces através de plugins e crie estratégias baseadas nos relatórios.</p>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-12 text-center mb-4 wow fadeInDown" data-wow-delay="0.8s">
+<div id="destaque-card" style="background-image: linear-gradient(rgba(55, 179, 184,0.8), rgba(55, 179, 184,0.9)), url(/wp-content/uploads/2021/12/bg-desenvolvimento-de-lojas_virtuais.jpg);" class="h-100 w-100 bg-padrao vertical-center">
+<div class="w-100 text-center px-4 py-5">
+<i class="fas fa-cart-plus text-black mb-4 h2"></i>
+<h2 class="text-black h2 mt-0 mb-4 font-weight-bold">Tudo que você precisa para vender online</h2>
+<a class="btn btn-primary wow pulse" data-wow-iteration="infinite" href="https://api.whatsapp.com/send?phone=5511911182223">Entre em contato</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="depoimentos" class="py-5 bg-black">
+<div class="container pt-md-4">
+<h2 class="h2 font-p text-center  mt-0 mb-2 text-white italic wow fadeInDown">
+Depoimentos <br><span class="bold-italic">dos clientes </span> </h2>
+<p class="text-center mb-5 text-warning">
+<i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+</p>
+<div class="owl-carousel owl-carousel-depoimetos wow fadeInDown pt-2">
+<div class="item">
+<div class="row justify-content-center vertical-center h-100">
+<div class="col-md-2 col-6 mb-3 mb-md-0">
+<img alt="Foto do Influencer Marcos Bulhões" title="Foto do Influencer Marcos Bulhões" src="/wp-content/uploads/2021/07/marcos-bulhoes.jpg" class="img-fluid bg-white rounded-circle border-padrao">
+</div>
+<div class="col-md-7 col-12">
+<h3 class="my-0 font-p text-white text-center text-md-left pb-3 h5">
+Marcos Bulhões<br><small>Influencer Emocional</small>
+</h3>
+<p class="mb-0 text-white text-center text-md-left">"Extremamente profissionais e de uma qualidade enorme. Nunca fiquei 12h horas com qualquer problema que não foi resolvido. Extremamente recomendado"</p>
+<div class="mt-3 row mx-0 d-none d-md-flex">
+<a href="https://www.facebook.com/omarcosbulhoes/" target="_blank">
+<i class="fab fa-facebook-f text-padrao text-titulo h6 pr-3"></i>
+</a>
+<a href="https://www.instagram.com/marcosbulhoes/" target="_blank">
+<i class="fab fa-instagram text-padrao text-titulo h6 pr-3"></i>
+</a>
+<a href="https://twitter.com/eumarcosbulhoes" target="_blank">
+<i class="fab fa-twitter text-padrao text-titulo h6 pr-3"></i>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="item">
+<div class="row justify-content-center vertical-center h-100">
+<div class="col-md-2 col-6 mb-3 mb-md-0">
+<img alt title="wixbartender" src="/wp-content/uploads/2022/01/wixbartender.png" class="img-fluid bg-white rounded-circle border-padrao">
+</div>
+<div class="col-md-7 col-12">
+<h3 class="my-0 font-p text-white text-center text-md-left pb-3 h5">
+Deivid Borges<br><small>Diretor do Wix Bartenders</small>
+</h3>
+<p class="mb-0 text-white text-center text-md-left">Grande parceiro! Excelentes profissionais, manda super bem no que é tratado e alinhado. Super satisfeito com os prazos e a entrega. Algo raro hoje em dia se falando de marketing! Gratidão e vamos em frente 🚀.</p>
+<div class="mt-3 row mx-0 d-none d-md-flex">
+<a href="https://wixbartenders.com.br/" target="_blank">
+<i class="fas fa-globe text-padrao text-titulo h6 pr-3"></i>
+</a>
+<a href="https://clubwix.com.br/" target="_blank">
+<i class="fas fa-cart-plus text-padrao text-titulo h6 pr-3"></i>
+</a>
+<a href="https://www.instagram.com/clubwixbar/" target="_blank">
+<i class="fab fa-instagram text-padrao text-titulo h6 pr-3"></i>
+</a>
+<a href="https://www.facebook.com/clubwix" target="_blank">
+<i class="fab fa-facebook-f text-padrao text-titulo h6 pr-3"></i>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="item">
+<div class="row justify-content-center vertical-center h-100">
+<div class="col-md-2 col-6 mb-3 mb-md-0">
+<img alt="Foto do Influencer Caciano Kuffel" title="Foto do Influencer Caciano Kuffel" src="/wp-content/uploads/2021/07/caciano-kuffel.jpg" class="img-fluid bg-white rounded-circle border-padrao">
+</div>
+<div class="col-md-7 col-12">
+<h3 class="my-0 font-p text-white text-center text-md-left pb-3 h5">
+Caciano Kuffel<br><small>Escritor e Influencer</small>
+</h3>
+<p class="mb-0 text-white text-center text-md-left">"Suporte sempre prestativo e simpático para tirar todas as dúvidas e pânicos gerais que surgem. Talentosos, além de conhecer muito sobre quase tudo que a gente fala. São artistas do mundo digital."</p>
+<div class="mt-3 row mx-0 d-none d-md-flex">
+<a href="https://facebook.com/CacianoComC/" target="_blank">
+<i class="fab fa-facebook-f text-padrao text-titulo h6 pr-3"></i>
+</a>
+<a href="https://www.instagram.com/cacianocomc/" target="_blank">
+<i class="fab fa-instagram text-padrao text-titulo h6 pr-3"></i>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="item">
+<div class="row justify-content-center vertical-center h-100">
+<div class="col-md-2 col-6 mb-3 mb-md-0">
+<img alt title="velotax-logo" src="/wp-content/uploads/2022/03/velotax-logo.png" class="img-fluid bg-white rounded-circle border-padrao">
+</div>
+<div class="col-md-7 col-12">
+<h3 class="my-0 font-p text-white text-center text-md-left pb-3 h5">
+Victor<br><small>Diretor na Velotax</small>
+</h3>
+<p class="mb-0 text-white text-center text-md-left">"O pessoal foi muito atencioso ao fazer as alterações solicitadas no blog, inclusive fazendo sugestões baseadas na sua experiência que foram muito úteis. Mesmo com diversos pedidos de alterações em todo o site, foram bastante solícitos, tendo atendido às demandas antes do combinado e auxiliado no possível. Recomendo fortemente."</p>
+<div class="mt-3 row mx-0 d-none d-md-flex">
+<a href="https://velotax.com.br/" target="_blank">
+<i class="fas fa-globe text-padrao text-titulo h6 pr-3"></i>
+</a>
+<a href="https://www.instagram.com/velotax.com.br/" target="_blank">
+<i class="fab fa-instagram text-padrao text-titulo h6 pr-3"></i>
+</a>
+<a href="https://blog.velotax.com.br/" target="_blank">
+<i class="fas fa-blog text-padrao text-titulo h6 pr-3"></i>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="item">
+<div class="row justify-content-center vertical-center h-100">
+<div class="col-md-2 col-6 mb-3 mb-md-0">
+<img alt="Foto do Influencer Gio Lucca" title="Foto do Influencer Gio Lucca" src="/wp-content/uploads/2021/07/giolucca.jpg" class="img-fluid bg-white rounded-circle border-padrao">
+</div>
+<div class="col-md-7 col-12">
+<h3 class="my-0 font-p text-white text-center text-md-left pb-3 h5">
+Gio Lucca<br><small>Escritor e Influencer</small>
+</h3>
+<p class="mb-0 text-white text-center text-md-left">"Trabalho incrível! Sempre me atenderam em qualquer alteração que eu necessitei em meu site com muito êxito e empenho. Trabalho responsável e criativo. Sem palavras, recomendo muito."</p>
+<div class="mt-3 row mx-0 d-none d-md-flex">
+<a href="https://facebook.com/gioluccaofc" target="_blank">
+<i class="fab fa-facebook-f text-padrao text-titulo h6 pr-3"></i>
+</a>
+<a href="https://www.instagram.com/giolucca_/" target="_blank">
+<i class="fab fa-instagram text-padrao text-titulo h6 pr-3"></i>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="faq" class="py-5 bg-silver">
+<div class="container py-md-4">
+<h2 class="h2 font-p text-black text-center mt-0 mb-5 italic wow fadeInDown">
+Dúvidas <br><span class="bold-italic">frequentes </span> </h2>
+<div class="row justify-content-center vertical-center h-100" id="accordion">
+<div class="col-md-8 col-12">
+<div class="card">
+<div class="card-header" id="headingqualadiferenccedilaparaoutrasplataformas">
+<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapsequaladiferenccedilaparaoutrasplataformas" aria-expanded="false" aria-controls="collapsequaladiferenccedilaparaoutrasplataformas">
+<i class="fas fa-check"></i> Qual a diferença para outras plataformas </button>
+</div>
+<div id="collapsequaladiferenccedilaparaoutrasplataformas" class="collapse" aria-labelledby="headingqualadiferenccedilaparaoutrasplataformas" data-parent="#accordion">
+<div class="card-body">
+<p>Nossas lojas são desenvolvidas em cima do WordPress + Woocommerce, isso significa que todo o código fonte da sua loja é seu e você tem total liberdade de encerrar o contrato conosco (mediante os termos) e migrar sua loja para outra equipe e hospedagem, além de não limitar o crescimento do seu negócio com base em planos que liberam recursos conforme você paga mais caro.</p>
+<p>Aqui sua loja é realmente sua após a entrega e você não está &#8220;preso&#8221; a uma plataforma fechada.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-8 col-12">
+<div class="card">
+<div class="card-header" id="headingtenhodireitoaemailscomerciais">
+<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapsetenhodireitoaemailscomerciais" aria-expanded="false" aria-controls="collapsetenhodireitoaemailscomerciais">
+<i class="fas fa-check"></i> Tenho direito a e-mails comerciais? </button>
+</div>
+<div id="collapsetenhodireitoaemailscomerciais" class="collapse" aria-labelledby="headingtenhodireitoaemailscomerciais" data-parent="#accordion">
+<div class="card-body">
+<p>Caso a hospedagem da loja esteja contratada conosco, você poderá ter vários e-mails comerciais.</p>
+<p>Exemplo: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="93fdfcfef6d3f7fcfefafdfafcbdf0fcfebdf1e1">[email&#160;protected]</a></p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-8 col-12">
+<div class="card">
+<div class="card-header" id="headingqualeacuteovalordoinvestimento">
+<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapsequaleacuteovalordoinvestimento" aria-expanded="false" aria-controls="collapsequaleacuteovalordoinvestimento">
+<i class="fas fa-check"></i> Qual é o valor do investimento? </button>
+</div>
+<div id="collapsequaleacuteovalordoinvestimento" class="collapse" aria-labelledby="headingqualeacuteovalordoinvestimento" data-parent="#accordion">
+<div class="card-body">
+<p>O preço médio para a criação de uma loja virtual varia de acordo com o tempo gasto e a complexidade do projeto, quantas páginas terão, complexidade do layout a ser desenvolvido entre outros fatores.</p>
+<p>O investimento é composto de: implementação + mensalidade de manutenção, suporte e hospedagem.</p>
+<p>Os valores podem variar de projeto para projeto, entre em contato e peça um orçamento.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-8 col-12">
+<div class="card">
+<div class="card-header" id="headingquaisinformaccedilotildeesprecisoparainiciarodesenvolvimentodaloja">
+<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapsequaisinformaccedilotildeesprecisoparainiciarodesenvolvimentodaloja" aria-expanded="false" aria-controls="collapsequaisinformaccedilotildeesprecisoparainiciarodesenvolvimentodaloja">
+<i class="fas fa-check"></i> Quais informações preciso para iniciar o desenvolvimento da loja? </button>
+</div>
+<div id="collapsequaisinformaccedilotildeesprecisoparainiciarodesenvolvimentodaloja" class="collapse" aria-labelledby="headingquaisinformaccedilotildeesprecisoparainiciarodesenvolvimentodaloja" data-parent="#accordion">
+<div class="card-body">
+<p>O desenvolvimento do site é iniciado quando tivermos em nossas mãos o conteúdo básico para a sua execução. Logotipo da empresa; lista de produtos (imagens, título, descrição, preço); ideia geral do site; páginas de navegação e sessões; outras imagens e textos que forem definidos no briefing.</p>
+<p>Alguns materiais podem ser solicitados durante ou após o desenvolvimento da loja, como tokens para configuração de meios de pagamentos.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-8 col-12">
+<div class="card">
+<div class="card-header" id="headingtenhoacessoasuporteteacutecnico">
+<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapsetenhoacessoasuporteteacutecnico" aria-expanded="false" aria-controls="collapsetenhoacessoasuporteteacutecnico">
+<i class="fas fa-check"></i> Tenho acesso a suporte técnico? </button>
+</div>
+<div id="collapsetenhoacessoasuporteteacutecnico" class="collapse" aria-labelledby="headingtenhoacessoasuporteteacutecnico" data-parent="#accordion">
+<div class="card-body">
+<p>Sim, o suporte técnico oferecido mediante o pagamento da mensalidade descrita em contrato, que garante atualizações, correções, etc., além disso é fornecido treinamento sobre o funcionamento e gestão da loja gratuitamente após a entrega.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-8 col-12">
+<div class="card">
+<div class="card-header" id="headingminhalojaapareceraacutenogoogle">
+<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseminhalojaapareceraacutenogoogle" aria-expanded="false" aria-controls="collapseminhalojaapareceraacutenogoogle">
+<i class="fas fa-check"></i> Minha loja aparecerá no Google? </button>
+</div>
+<div id="collapseminhalojaapareceraacutenogoogle" class="collapse" aria-labelledby="headingminhalojaapareceraacutenogoogle" data-parent="#accordion">
+<div class="card-body">
+<p>No Google e nos principais mecanismos de buscas mundiais. Porém para aparecer nas primeiras páginas é necessário utilizar ferramentas de SEO e links patrocinados para alcançar as primeiras posições.</p>
+<p>Também é possível cadastrar a loja no Google Merchant Center, para aparecer melhor nas pesquisas.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-8 col-12">
+<div class="card">
+<div class="card-header" id="headingpossointegrarminhalojacommarketplaces">
+<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapsepossointegrarminhalojacommarketplaces" aria-expanded="false" aria-controls="collapsepossointegrarminhalojacommarketplaces">
+<i class="fas fa-check"></i> Posso integrar minha loja com Marketplaces? </button>
+</div>
+<div id="collapsepossointegrarminhalojacommarketplaces" class="collapse" aria-labelledby="headingpossointegrarminhalojacommarketplaces" data-parent="#accordion">
+<div class="card-body">
+<p>É possível integrar a loja com os principais Marketplaces, como Amazon, Casas Bahia, Americanas, Magazine Luiza, Mercado Livre etc. através de plugins ou hubs de integração.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-8 col-12">
+<div class="card">
+<div class="card-header" id="headingnatildeoacheiminhaduacutevida">
+<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapsenatildeoacheiminhaduacutevida" aria-expanded="false" aria-controls="collapsenatildeoacheiminhaduacutevida">
+<i class="fas fa-check"></i> Não achei minha dúvida </button>
+</div>
+<div id="collapsenatildeoacheiminhaduacutevida" class="collapse" aria-labelledby="headingnatildeoacheiminhaduacutevida" data-parent="#accordion">
+<div class="card-body">
+<p>Não tem problema, entre em contato conosco pelo <a class href="https://api.whatsapp.com/send?phone=5511911182223">Whatsapp</a> ou <a href="/cdn-cgi/l/email-protection#13707c7d6772677c5376607b7c637e767a3d707c7e">E-mail</a> que teremos o maior prazer em responde-lo.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="formcontato" class="bg-white">
+<div id="aformcontato" class="py-5">
+<div class="container h-100">
+<div class="row vertical-center h-100">
+<div class="col-md-5 col-12 mt-5 mt-md-0">
+<div class="px-5 py-5 mb-5 mb-lg-0" style="box-shadow: 0px 2px 10px rgb(0,0,0,0.2);">
+<h2 class="h2 font-p text-black text-left mt-0 mb-3 italic wow fadeInDown" data-wow-delay="0.2s">
+Solicite <br><span class="bold-italic">um orçamento </span> </h2>
+<p class="text-black text-justify small">Envie sua mensagem, teremos o maior prazer em atendê-lo(a) e tirar todas as suas dúvidas a respeito dos nossos serviços, te ajudaremos a concretizar o seu projeto.</p>
+<div class="contatos mb-4 mt-4 wow fadeInDown" data-wow-delay="0.5s">
+<div class="mb-3 border-bottom">
+<p class="mb-1 text-black fontbold"><i class="fas fa-mobile-alt text-orange pr-2"></i> Whatsapp:</p>
+<p class="mb-2"><a target="_blank" class="pr-3 d-table py-1" href="https://api.whatsapp.com/send?phone=5511911182223">(11) 91118-2223</a></p>
+</div>
+<div class="mb-3 border-bottom">
+<p class="mb-1 text-black fontbold"><i class="fas fa-envelope text-orange pr-2"></i> E-mail:</p>
+<p class="mb-2"><a target="_blank" class="pr-3 d-table py-1" href="/cdn-cgi/l/email-protection#abc8c4c5dfcadfc4ebced8c3c4dbc6cec285c8c4c6"><span class="__cf_email__" data-cfemail="6f0c00011b0e1b002f0a1c07001f020a06410c0002">[email&#160;protected]</span></a></p>
+</div>
+</div>
+<div id="redessociais" class="mt-4 row mx-0">
+<a href="https://api.whatsapp.com/send?phone=5511911182223" class="link-icon" target="_blank" aria-label="fab fa-whatsapp"><i class="text-padrao fab fa-whatsapp h2 pr-3 my-0"></i></a><a href="https://www.linkedin.com/company/eshopmei/" class="link-icon" target="_blank" aria-label="fab fa-linkedin-in"><i class="text-padrao fab fa-linkedin-in h2 pr-3 my-0"></i></a>
+</div> </div>
+</div>
+<div class="col-md-7 col-12 wow fadeInDown" data-wow-delay="0.2s">
+<div class="px-md-5 px-auto">
+<div class="wpcf7 no-js" id="wpcf7-f5-o1" lang="pt-BR" dir="ltr">
+<div class="screen-reader-response">
+<p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul>
+</div>
+<form action="/loja-virtual/?simply_static_page=441#wpcf7-f5-o1" method="post" class="wpcf7-form init" aria-label="Formulários de contato" novalidate="novalidate" data-status="init">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="5">
+<input type="hidden" name="_wpcf7_version" value="5.9.5">
+<input type="hidden" name="_wpcf7_locale" value="pt_BR">
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f5-o1">
+<input type="hidden" name="_wpcf7_container_post" value="0">
+<input type="hidden" name="_wpcf7_posted_data_hash" value>
+<input type="hidden" name="_wpcf7_recaptcha_response" value>
+</div>
+<div class="row">
+<div class="col-md-12 col-12">
+<p><label for="nome"><span class="text-danger">*</span>Nome:</label><span class="wpcf7-form-control-wrap" data-name="your-name"><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Digite seu nome" value type="text" name="your-name"></span>
+</p>
+</div>
+<div class="col-md-6 col-12 mt-3">
+<p><label for="email"><span class="text-danger">*</span>E-mail:</label><span class="wpcf7-form-control-wrap" data-name="your-email"><input size="40" class="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Informe seu e-mail" value type="email" name="your-email"></span>
+</p>
+</div>
+<div class="col-md-6 col-12 mt-3">
+<p><label for="telefone"><span class="text-danger">*</span>Telefone:</label><span class="wpcf7-form-control-wrap" data-name="telefone"><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Digite seu telefone" value type="text" name="telefone"></span>
+</p>
+</div>
+<div class="col-md-12 col-12 mt-3">
+<p><label for="email"><span class="text-danger">*</span>Assunto:</label><span class="wpcf7-form-control-wrap" data-name="assunto"><select class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required" aria-required="true" aria-invalid="false" name="assunto"><option value>Assunto</option>
+<option value="Site institucional">Site institucional</option>
+<option value="Loja virtual">Loja virtual</option>
+<option value="Landing page">Landing page</option>
+<option value="Hospedagem">Hospedagem</option>
+<option value="E-mail profissional">E-mail profissional</option>
+<option value="Outros">Outros</option></select></span>
+</p>
+</div>
+<div class="col-md-12 col-12 mt-3">
+<p><label for="mensagem">Outras informações:</label><span class="wpcf7-form-control-wrap" data-name="your-message"><textarea cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Descreva o projeto" name="your-message"></textarea></span>
+</p>
+</div>
+<div class="col-md-12 col-12 mt-4 pt-1">
+<p><input class="wpcf7-form-control wpcf7-submit has-spinner" type="submit" value="Enviar">
+</p>
+</div>
+</div>
+<div class="wpcf7-response-output" aria-hidden="true"></div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+<div id="bgprefooter" class="bg-padrao pt-3 pb-3">
+<div class="container">
+<div class="row">
+<div class="col-md-6 col-lg-3">
+<div class="text-certer text-md-left  py-3" style="font-size: 14px;">
+<p><img loading="lazy" decoding="async" class="alignnone size-medium wp-image-744 pr-lg-5 pt-3" src="/wp-content/uploads/2022/07/logo-pb-300x106.png" alt width="300" height="106" srcset="/wp-content/uploads/2022/07/logo-pb-300x106.png 300w,   /wp-content/uploads/2022/07/logo-pb-768x272.png 768w,   /wp-content/uploads/2022/07/logo-pb.png 978w" sizes="(max-width: 300px) 100vw, 300px"></p>
+</div>
+</div>
+<div class="col-md-6 col-lg-3">
+<h3 class="text-center text-md-left font-weight-bold h4 pt-2">
+Serviços </h3>
+<div class="text-certer text-md-left  py-3" style="font-size: 14px;">
+<div class="menu-servicos-container"><ul id="menu-servicos" class="myclass">
+<li id="menu-item-731" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-731"><a href="/site-institucional/"><i class="fas fa-check"></i> Site institucional</a></li>
+<li id="menu-item-730" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-277 current_page_item menu-item-730"><a href="/loja-virtual/" aria-current="page"><i class="fas fa-check"></i> Loja virtual</a></li>
+<li id="menu-item-729" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-729"><a href="/landing-pages/"><i class="fas fa-check"></i> Landing pages</a></li>
+<li id="menu-item-728" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-728"><a href="/hospedagem/"><i class="fas fa-check"></i> Hospedagem</a></li>
+<li id="menu-item-727" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-727"><a href="/e-mail-profissional/"><i class="fas fa-check"></i> E-mail profissional</a></li>
+</ul></div>
+</div>
+</div>
+<div class="col-md-6 col-lg-3">
+<h3 class="text-center text-md-left font-weight-bold h4 pt-2">
+Institucional </h3>
+<div class="text-certer text-md-left  py-3" style="font-size: 14px;">
+<div class="menu-institucional-container"><ul id="menu-institucional" class="myclass">
+<li id="menu-item-732" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-732"><a href="/"><i class="fas fa-check"></i> Home</a></li>
+<li id="menu-item-737" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-737"><a href="/quem-somos/"><i class="fas fa-check"></i> Quem somos</a></li>
+<li id="menu-item-735" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-735"><a href="/nossas-solucoes/"><i class="fas fa-check"></i> Nossas soluções</a></li>
+<li id="menu-item-736" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-736"><a href="/portfolio/"><i class="fas fa-check"></i> Portfólio</a></li>
+<li id="menu-item-733" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-733"><a href="/blog/"><i class="fas fa-check"></i> Blog</a></li>
+<li id="menu-item-734" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-734"><a href="/contato/"><i class="fas fa-check"></i> Contato</a></li>
+</ul></div>
+</div>
+</div>
+<div class="col-md-6 col-lg-3">
+<h3 class="text-center text-md-left font-weight-bold h4 pt-2">
+Nosso Blog </h3>
+<div class="text-certer text-md-left py-3" style="font-size: 14px;">
+<div class="menu-blog-container"><ul id="menu-blog" class="myclass">
+<li id="menu-item-738" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-738"><a href="/category/dicas/"><i class="fas fa-check"></i> Dicas</a></li>
+<li id="menu-item-739" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-739"><a href="/category/internet/"><i class="fas fa-check"></i> Internet</a></li>
+<li id="menu-item-740" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-740"><a href="/category/lojas-virtuais/"><i class="fas fa-check"></i> Lojas virtuais</a></li>
+<li id="menu-item-741" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-741"><a href="/category/lojas-virtuais/e-commerce/"><i class="fas fa-check"></i> E-commerce</a></li>
+<li id="menu-item-742" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-742"><a href="/category/negocios/"><i class="fas fa-check"></i> Negócios</a></li>
+<li id="menu-item-743" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-743"><a href="/category/seo/"><i class="fas fa-check"></i> SEO</a></li>
+</ul></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer id="footer" class>
+<div class="container py-3 text-md-left text-center">
+<div class="row row justify-content-center vertical-center h-100">
+<div class="col-md-12 col-12 mb-2 mb-md-0 text-center">
+Copyright &copy; 2024 <a href="/"><strong>eShopMEI</strong></a>
+<span class="d-md-inline d-none"> - </span><span class="d-inline d-md-none"> <br> </span>
+Todos os direitos reservados.
+<br>
+<div class="text-small">
+<a href="/mapa-do-site/"><strong>Mapa do site</strong></a>
+<span class="sep"> | </span>
+<a href="/politica-de-privacidade/"><strong>Políticas de privacidade</strong></a>
+</div>
+</div>
+
+</div>
+</div>
+</footer>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript" src="/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.9.5" id="swv-js"></script>
+<script type="text/javascript" id="contact-form-7-js-extra">
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"\/wp-json\/","namespace":"contact-form-7\/v1"},"cached":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.9.5" id="contact-form-7-js"></script>
+<script type="text/javascript" src="/wp-content/themes/eshopmei/inc/assets/js/popper.min.js?ver=6.5.4" id="wp-bootstrap-starter-popper-js"></script>
+<script type="text/javascript" src="/wp-content/themes/eshopmei/inc/assets/js/bootstrap.min.js?ver=6.5.4" id="wp-bootstrap-starter-bootstrapjs-js"></script>
+<script type="text/javascript" src="/wp-content/themes/eshopmei/inc/assets/js/theme-script.min.js?ver=6.5.4" id="wp-bootstrap-starter-themejs-js"></script>
+<script type="text/javascript" src="/wp-content/themes/eshopmei/inc/assets/js/skip-link-focus-fix.min.js?ver=20151215" id="wp-bootstrap-starter-skip-link-focus-fix-js"></script>
+<script type="text/javascript" src="/wp-content/themes/eshopmei/inc/assets/js/owl.carousel.min.js?ver=2.3.4" id="wp-owl-carousel-js"></script>
+<script type="text/javascript" src="/wp-content/themes/eshopmei/inc/assets/js/fslightbox.js?ver=2.3.4" id="wp-fslightbox-js-js"></script>
+<script type="text/javascript" src="/wp-content/themes/eshopmei/inc/assets/js/wow.min.js?ver=2.1.4" id="wow-js-js"></script>
+<script type="text/javascript" src="/wp-content/themes/eshopmei/inc/assets/js/scripts.js?ver=1.1.0" id="scrisps-wp-js"></script>
+<script type="text/javascript" src="https://www.google.com/recaptcha/api.js?render=6LfhHa0bAAAAANtfXKGTprsHvs16fumHVxQa7Ats&amp;ver=3.0" id="google-recaptcha-js"></script>
+<script type="text/javascript" src="/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2" id="wp-polyfill-inert-js"></script>
+<script type="text/javascript" src="/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.14.0" id="regenerator-runtime-js"></script>
+<script type="text/javascript" src="/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js"></script>
+<script type="text/javascript" id="wpcf7-recaptcha-js-extra">
+/* <![CDATA[ */
+var wpcf7_recaptcha = {"sitekey":"6LfhHa0bAAAAANtfXKGTprsHvs16fumHVxQa7Ats","actions":{"homepage":"homepage","contactform":"contactform"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="/wp-content/plugins/contact-form-7/modules/recaptcha/index.js?ver=5.9.5" id="wpcf7-recaptcha-js"></script>
+<a href="https://api.whatsapp.com/send?phone=5511911182223" target="_blank" id="btn_chat_whatsapp" aria-label="Whatsapp"><i style="margin-top:16px" class="fab fa-whatsapp"></i></a>
+<div id="modalCookie" class>
+<div class="bodymodal">
+<div class="container row mx-0 justify-content-center h-100 vertical-center">
+<div class="col-md-12 col-12 px-0">
+Utilizamos cookies e tecnologias semelhantes, como explicado em nossa <a class="linkcookie" href="/politica-de-privacidade/"><u>Política de Privacidade</u></a>, para melhorar a experiência dos usúarios e coletar estatística de navegação. Ao continuar em nosso site você aceita tais condições.
+</div>
+<div class="col-md-12 col-12 px-0 mt-2">
+<button id="buttonAceitoCookie" type="button" class="btn btn-primary">Aceitar e fechar</button>
+</div>
+</div>
+</div>
+</div>
+<script>window.addEventListener("scroll", function (event) {
+        if (localStorage.getItem("modal_cookie_aviso") == null) {
+            document.getElementById("modalCookie").style.display = "block";
+        }
+    });
+    document.getElementById("buttonAceitoCookie").addEventListener("click", cookieAceito);
+    function cookieAceito() {
+        localStorage.setItem("modal_cookie_aviso", "aceito");
+        document.getElementById("modalCookie").style.display = "none";
+    }</script>
+</body>
+</html>
